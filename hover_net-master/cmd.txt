@@ -1,0 +1,1 @@
+python run_infer.py  --gpu=1 --model_path='/data/zrf/hover_net-master/checkpoints/hovernet_fast_monusac_type_tf2pytorch.tar' --batch_size=16  --input_dir=
