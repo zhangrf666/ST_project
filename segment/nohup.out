@@ -1,0 +1,6009 @@
+2023-10-18 01:56:01
+Namespace(device='cuda:0', output_dir='/data/zrf/STproj/ProjST/CELLSegment/output', resume='', start_epoch=0, epochs=10, lr=0.0001, momentum=0.9, weight_decay=0.0001, batch_size=16, aspect_ratio_group_factor=3, amp=False)
+Using cuda device training.
+/data/zrf/anaconda3/envs/tor1/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained_backbone' is deprecated since 0.13 and may be removed in the future, please use 'weights_backbone' instead.
+  warnings.warn(
+/data/zrf/anaconda3/envs/tor1/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights_backbone' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights_backbone=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights_backbone=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+now start to train
+epoch:0 loss:1.8400481343269348
+now start to train
+epoch:1 loss:1.836158315340678
+now start to train
+epoch:2 loss:1.829978088537852
+now start to train
+epoch:3 loss:1.8231163620948792
+now start to train
+epoch:4 loss:1.8150598605473836
+now start to train
+epoch:5 loss:1.8055718342463176
+now start to train
+epoch:6 loss:1.7940689126650493
+now start to train
+epoch:7 loss:1.7788618405659993
+now start to train
+epoch:8 loss:1.7617448965708415
+now start to train
+epoch:9 loss:1.7449979583422344
+now start to train
+epoch:10 loss:1.7346275647481282
+now start to train
+epoch:11 loss:1.7294279138247173
+now start to train
+epoch:12 loss:1.7223916451136272
+now start to train
+epoch:13 loss:1.714594304561615
+now start to train
+epoch:14 loss:1.705019235610962
+now start to train
+epoch:15 loss:1.6899532278378804
+now start to train
+epoch:16 loss:1.6658894022305806
+now start to train
+epoch:17 loss:1.6199442744255066
+now start to train
+epoch:18 loss:1.5208100080490112
+now start to train
+epoch:19 loss:1.4289991060892742
+now start to train
+epoch:20 loss:1.3832043608029683
+now start to train
+epoch:21 loss:1.3585669596989949
+now start to train
+epoch:22 loss:1.3244324326515198
+now start to train
+epoch:23 loss:1.2965501546859741
+now start to train
+epoch:24 loss:1.2629673878351848
+now start to train
+epoch:25 loss:1.2453751762708027
+now start to train
+epoch:26 loss:1.2255120078722637
+now start to train
+epoch:27 loss:1.2171802918116252
+now start to train
+epoch:28 loss:1.1987100839614868
+now start to train
+epoch:29 loss:1.1996293862660725
+now start to train
+epoch:30 loss:1.191619336605072
+now start to train
+epoch:31 loss:1.1693928043047588
+now start to train
+epoch:32 loss:1.1657400925954182
+now start to train
+epoch:33 loss:1.161834438641866
+now start to train
+epoch:34 loss:1.1527648568153381
+now start to train
+epoch:35 loss:1.157358705997467
+now start to train
+epoch:36 loss:1.1386367678642273
+now start to train
+epoch:37 loss:1.130917449792226
+now start to train
+epoch:38 loss:1.1250521938006084
+now start to train
+epoch:39 loss:1.1191608905792236
+now start to train
+unfreeze backbone
+epoch:40 loss:1.1151681542396545
+now start to train
+epoch:41 loss:1.106879969437917
+now start to train
+epoch:42 loss:1.0987127621968586
+now start to train
+epoch:43 loss:1.085490385691325
+now start to train
+epoch:44 loss:1.0792733232180278
+now start to train
+epoch:45 loss:1.071883499622345
+now start to train
+epoch:46 loss:1.070707639058431
+now start to train
+epoch:47 loss:1.0636354486147563
+now start to train
+epoch:48 loss:1.058686186869939
+now start to train
+epoch:49 loss:1.0536548097928364
+now start to train
+epoch:50 loss:1.0481120149294536
+now start to train
+epoch:51 loss:1.0442027747631073
+now start to train
+epoch:52 loss:1.0428834358851116
+now start to train
+epoch:53 loss:1.043820748726527
+now start to train
+epoch:54 loss:1.0378361940383911
+now start to train
+epoch:55 loss:1.030508816242218
+now start to train
+epoch:56 loss:1.0294435222943623
+now start to train
+epoch:57 loss:1.0248493254184723
+now start to train
+epoch:58 loss:1.0184488991896312
+now start to train
+epoch:59 loss:1.0169550776481628
+now start to train
+epoch:60 loss:1.0146068533261616
+now start to train
+epoch:61 loss:1.0239970286687214
+now start to train
+epoch:62 loss:1.0144809285799663
+now start to train
+epoch:63 loss:1.0291853944460552
+now start to train
+epoch:64 loss:1.0251197814941406
+now start to train
+epoch:65 loss:1.0057847797870636
+now start to train
+epoch:66 loss:1.0030114650726318
+now start to train
+epoch:67 loss:1.000523457924525
+now start to train
+epoch:68 loss:0.9989324410756429
+now start to train
+epoch:69 loss:0.9910808602968851
+now start to train
+epoch:70 loss:0.986274003982544
+now start to train
+epoch:71 loss:0.9822924534479777
+now start to train
+epoch:72 loss:0.984711229801178
+now start to train
+epoch:73 loss:0.9801474610964457
+now start to train
+epoch:74 loss:0.9789230624834696
+now start to train
+epoch:75 loss:0.9715705017248789
+now start to train
+epoch:76 loss:0.9686371485392252
+now start to train
+epoch:77 loss:0.9669877092043558
+now start to train
+epoch:78 loss:0.9796463449796041
+now start to train
+epoch:79 loss:0.9737468163172404
+now start to train
+epoch:80 loss:0.972615251938502
+now start to train
+epoch:81 loss:0.970029373963674
+now start to train
+epoch:82 loss:0.9673425952593485
+now start to train
+epoch:83 loss:0.9567020535469055
+now start to train
+epoch:84 loss:0.9496368169784546
+now start to train
+epoch:85 loss:0.9477759401003519
+now start to train
+epoch:86 loss:0.9437209069728851
+now start to train
+epoch:87 loss:0.9457372029622396
+now start to train
+epoch:88 loss:0.9495139519373575
+now start to train
+epoch:89 loss:0.9494614799817404
+now start to train
+epoch:90 loss:0.9511368076006571
+now start to train
+epoch:91 loss:0.9520821968714396
+now start to train
+epoch:92 loss:0.9535572826862335
+now start to train
+epoch:93 loss:0.9407609601815542
+now start to train
+epoch:94 loss:0.9325339694817861
+now start to train
+epoch:95 loss:0.9238091508547465
+now start to train
+epoch:96 loss:0.9206108152866364
+now start to train
+epoch:97 loss:0.9184351364771525
+now start to train
+epoch:98 loss:0.9162139892578125
+now start to train
+epoch:99 loss:0.9120577871799469
+now start to train
+epoch:100 loss:0.9080877304077148
+now start to train
+epoch:101 loss:0.9102705319722494
+now start to train
+epoch:102 loss:0.9030219117800394
+now start to train
+epoch:103 loss:0.8986659348011017
+now start to train
+epoch:104 loss:0.8964748779932658
+now start to train
+epoch:105 loss:0.8945152660210928
+now start to train
+epoch:106 loss:0.8891822795073191
+now start to train
+epoch:107 loss:0.8866982460021973
+now start to train
+epoch:108 loss:0.8870752851168314
+now start to train
+epoch:109 loss:0.8860389987627665
+now start to train
+epoch:110 loss:0.8816580573717753
+now start to train
+epoch:111 loss:0.885056753953298
+now start to train
+epoch:112 loss:0.9134008288383484
+now start to train
+epoch:113 loss:0.9318117002646128
+now start to train
+epoch:114 loss:0.9115406572818756
+now start to train
+epoch:115 loss:0.9412383139133453
+now start to train
+epoch:116 loss:0.9140843749046326
+now start to train
+epoch:117 loss:0.898666520913442
+now start to train
+epoch:118 loss:0.88595911860466
+now start to train
+epoch:119 loss:0.8710054755210876
+now start to train
+epoch:120 loss:0.8680902322133383
+now start to train
+epoch:121 loss:0.8697984317938486
+now start to train
+epoch:122 loss:0.8719209730625153
+now start to train
+epoch:123 loss:0.8677562475204468
+now start to train
+epoch:124 loss:0.8611943423748016
+now start to train
+epoch:125 loss:0.8580451110998789
+now start to train
+epoch:126 loss:0.8597847521305084
+now start to train
+epoch:127 loss:0.8477352559566498
+now start to train
+epoch:128 loss:0.841082751750946
+now start to train
+epoch:129 loss:0.8384728729724884
+now start to train
+epoch:130 loss:0.83617103099823
+now start to train
+epoch:131 loss:0.8338973621527354
+now start to train
+epoch:132 loss:0.8317324121793112
+now start to train
+epoch:133 loss:0.8295043706893921
+now start to train
+epoch:134 loss:0.8252912561098734
+now start to train
+epoch:135 loss:0.8227561314900717
+now start to train
+epoch:136 loss:0.8212235669294993
+now start to train
+epoch:137 loss:0.828739066918691
+now start to train
+epoch:138 loss:0.8350401322046915
+now start to train
+epoch:139 loss:0.8379667500654856
+now start to train
+epoch:140 loss:0.8422861198584238
+now start to train
+epoch:141 loss:0.8278082211812338
+now start to train
+epoch:142 loss:0.8236492474873861
+now start to train
+epoch:143 loss:0.8202407757441202
+now start to train
+epoch:144 loss:0.8156426946322123
+now start to train
+epoch:145 loss:0.8102023601531982
+now start to train
+epoch:146 loss:0.8065787057081858
+now start to train
+epoch:147 loss:0.8009495635827383
+now start to train
+epoch:148 loss:0.8035705188910166
+now start to train
+epoch:149 loss:0.8064380387465159
+now start to train
+epoch:150 loss:0.8075147767861685
+now start to train
+epoch:151 loss:0.7977910538514456
+now start to train
+epoch:152 loss:0.8070821563402811
+now start to train
+epoch:153 loss:0.7995415329933167
+now start to train
+epoch:154 loss:0.7955545286337534
+now start to train
+epoch:155 loss:0.7911611298720042
+now start to train
+epoch:156 loss:0.7882319092750549
+now start to train
+epoch:157 loss:0.7862078150113424
+now start to train
+epoch:158 loss:0.7863481740156809
+now start to train
+epoch:159 loss:0.781118373076121
+now start to train
+epoch:160 loss:0.7784881293773651
+now start to train
+epoch:161 loss:0.7857503990332285
+now start to train
+epoch:162 loss:0.7788821558157603
+now start to train
+epoch:163 loss:0.773740291595459
+now start to train
+epoch:164 loss:0.7712443470954895
+now start to train
+epoch:165 loss:0.7710595428943634
+now start to train
+epoch:166 loss:0.7703367074330648
+now start to train
+epoch:167 loss:0.7826799750328064
+now start to train
+epoch:168 loss:0.7835552593072256
+now start to train
+epoch:169 loss:0.7757705549399058
+now start to train
+epoch:170 loss:0.7670212388038635
+now start to train
+epoch:171 loss:0.7718456387519836
+now start to train
+epoch:172 loss:0.7819936871528625
+now start to train
+epoch:173 loss:0.8171556890010834
+now start to train
+epoch:174 loss:0.8035620450973511
+now start to train
+epoch:175 loss:0.7857175469398499
+now start to train
+epoch:176 loss:0.7895273963610331
+now start to train
+epoch:177 loss:0.7800909380118052
+now start to train
+epoch:178 loss:0.7757057150204977
+now start to train
+epoch:179 loss:0.7770175238450369
+now start to train
+epoch:180 loss:0.7706301212310791
+now start to train
+epoch:181 loss:0.7619653244813284
+now start to train
+epoch:182 loss:0.7543133795261383
+now start to train
+epoch:183 loss:0.7511357963085175
+now start to train
+epoch:184 loss:0.7553626994291941
+now start to train
+epoch:185 loss:0.7542796432971954
+now start to train
+epoch:186 loss:0.7540283799171448
+now start to train
+epoch:187 loss:0.7500200768311819
+now start to train
+epoch:188 loss:0.7432689964771271
+now start to train
+epoch:189 loss:0.7414836287498474
+now start to train
+epoch:190 loss:0.7415408988793691
+now start to train
+epoch:191 loss:0.7409374217192332
+now start to train
+epoch:192 loss:0.7367258171240488
+now start to train
+epoch:193 loss:0.7334102292855581
+now start to train
+epoch:194 loss:0.7318695783615112
+now start to train
+epoch:195 loss:0.7296317319075266
+now start to train
+epoch:196 loss:0.7278424004713694
+now start to train
+epoch:197 loss:0.7261924346288046
+now start to train
+epoch:198 loss:0.7282114923000336
+now start to train
+epoch:199 loss:0.7254944741725922
+now start to train
+epoch:200 loss:0.7203758060932159
+now start to train
+epoch:201 loss:0.7213682333628336
+now start to train
+epoch:202 loss:0.7201475004355112
+now start to train
+epoch:203 loss:0.7199191550413767
+now start to train
+epoch:204 loss:0.7153516312440237
+now start to train
+epoch:205 loss:0.7144556740919749
+now start to train
+epoch:206 loss:0.7116420765717825
+now start to train
+epoch:207 loss:0.7149361868699392
+now start to train
+epoch:208 loss:0.7221154769261678
+now start to train
+epoch:209 loss:0.7204116582870483
+now start to train
+epoch:210 loss:0.7131022612253824
+now start to train
+epoch:211 loss:0.7074261407057444
+now start to train
+epoch:212 loss:0.7079625924428304
+now start to train
+epoch:213 loss:0.7052145302295685
+now start to train
+epoch:214 loss:0.7085688213507334
+now start to train
+epoch:215 loss:0.7096460064252218
+now start to train
+epoch:216 loss:0.7138802707195282
+now start to train
+epoch:217 loss:0.7165493766466776
+now start to train
+epoch:218 loss:0.7050405840078989
+now start to train
+epoch:219 loss:0.7018687129020691
+now start to train
+epoch:220 loss:0.7015035251776377
+now start to train
+epoch:221 loss:0.695478767156601
+now start to train
+epoch:222 loss:0.6985185444355011
+now start to train
+epoch:223 loss:0.6915191113948822
+now start to train
+epoch:224 loss:0.6974454522132874
+now start to train
+epoch:225 loss:0.6974330047766367
+now start to train
+epoch:226 loss:0.7260843614737192
+now start to train
+epoch:227 loss:0.7648288607597351
+now start to train
+epoch:228 loss:0.7319082816441854
+now start to train
+epoch:229 loss:0.7045576373736063
+now start to train
+epoch:230 loss:0.7166446447372437
+now start to train
+epoch:231 loss:0.7052208582560221
+now start to train
+epoch:232 loss:0.6969538033008575
+now start to train
+epoch:233 loss:0.6891826589902242
+now start to train
+epoch:234 loss:0.6933817565441132
+now start to train
+epoch:235 loss:0.69092924396197
+now start to train
+epoch:236 loss:0.6915869017442068
+now start to train
+epoch:237 loss:0.6903766095638275
+now start to train
+epoch:238 loss:0.6874663929144541
+now start to train
+epoch:239 loss:0.6885235408941904
+now start to train
+epoch:240 loss:0.6784509619077047
+now start to train
+epoch:241 loss:0.6748810112476349
+now start to train
+epoch:242 loss:0.671501080195109
+now start to train
+epoch:243 loss:0.6662304898103079
+now start to train
+epoch:244 loss:0.6661116580168406
+now start to train
+epoch:245 loss:0.6703281799952189
+now start to train
+epoch:246 loss:0.665189395348231
+now start to train
+epoch:247 loss:0.6777010858058929
+now start to train
+epoch:248 loss:0.6721522013346354
+now start to train
+epoch:249 loss:0.6643964946269989
+now start to train
+epoch:250 loss:0.6643421451250712
+now start to train
+epoch:251 loss:0.6657083729902903
+now start to train
+epoch:252 loss:0.6602411071459452
+now start to train
+epoch:253 loss:0.6563522120316824
+now start to train
+epoch:254 loss:0.6567263603210449
+now start to train
+epoch:255 loss:0.6639250218868256
+now start to train
+epoch:256 loss:0.6715307931105295
+now start to train
+epoch:257 loss:0.656963437795639
+now start to train
+epoch:258 loss:0.6671585043271383
+now start to train
+epoch:259 loss:0.6560860474904379
+now start to train
+epoch:260 loss:0.6556870341300964
+now start to train
+epoch:261 loss:0.6499152680238088
+now start to train
+epoch:262 loss:0.6669817964235941
+now start to train
+epoch:263 loss:0.654118667046229
+now start to train
+epoch:264 loss:0.6847977638244629
+now start to train
+epoch:265 loss:0.7633592883745829
+now start to train
+epoch:266 loss:0.7005481719970703
+now start to train
+epoch:267 loss:0.6883392035961151
+now start to train
+epoch:268 loss:0.6710391541322073
+now start to train
+epoch:269 loss:0.664497991402944
+now start to train
+epoch:270 loss:0.6500225861867269
+now start to train
+epoch:271 loss:0.6667254964510599
+now start to train
+epoch:272 loss:0.6613405148188273
+now start to train
+epoch:273 loss:0.6553935110569
+now start to train
+epoch:274 loss:0.6631599267323812
+now start to train
+epoch:275 loss:0.6517408390839895
+now start to train
+epoch:276 loss:0.6436417400836945
+now start to train
+epoch:277 loss:0.6426825424035391
+now start to train
+epoch:278 loss:0.633474071820577
+now start to train
+epoch:279 loss:0.6283476452032725
+now start to train
+epoch:280 loss:0.624295691649119
+now start to train
+epoch:281 loss:0.6230830450852712
+now start to train
+epoch:282 loss:0.6258874833583832
+now start to train
+epoch:283 loss:0.6230745216210684
+now start to train
+epoch:284 loss:0.6199377576510111
+now start to train
+epoch:285 loss:0.6164539655049642
+now start to train
+epoch:286 loss:0.6242441336313883
+now start to train
+epoch:287 loss:0.6349205474058787
+now start to train
+epoch:288 loss:0.6261129875977834
+now start to train
+epoch:289 loss:0.625646154085795
+now start to train
+epoch:290 loss:0.6717870732148489
+now start to train
+epoch:291 loss:0.6981009940306345
+now start to train
+epoch:292 loss:0.6744524637858073
+now start to train
+epoch:293 loss:0.6639229158560435
+now start to train
+epoch:294 loss:0.6445319751898447
+now start to train
+epoch:295 loss:0.6436085104942322
+now start to train
+epoch:296 loss:0.6504595975081126
+now start to train
+epoch:297 loss:0.6401815811793009
+now start to train
+epoch:298 loss:0.6343332926432291
+now start to train
+epoch:299 loss:0.6451589564482371
+now start to train
+epoch:300 loss:0.6217067837715149
+now start to train
+epoch:301 loss:0.6186759173870087
+now start to train
+epoch:302 loss:0.6249592304229736
+now start to train
+epoch:303 loss:0.6084368626276652
+now start to train
+epoch:304 loss:0.6033641993999481
+now start to train
+epoch:305 loss:0.5989526510238647
+now start to train
+epoch:306 loss:0.5994911988576254
+now start to train
+epoch:307 loss:0.6093911627928416
+now start to train
+epoch:308 loss:0.6011756062507629
+now start to train
+epoch:309 loss:0.6040417651335398
+now start to train
+epoch:310 loss:0.6052245597044627
+now start to train
+epoch:311 loss:0.608885645866394
+now start to train
+epoch:312 loss:0.6203605035940806
+now start to train
+epoch:313 loss:0.6049119730790457
+now start to train
+epoch:314 loss:0.5995222131411234
+now start to train
+epoch:315 loss:0.5917549729347229
+now start to train
+epoch:316 loss:0.6043743789196014
+now start to train
+epoch:317 loss:0.6037882268428802
+now start to train
+epoch:318 loss:0.5989148219426473
+now start to train
+epoch:319 loss:0.6005410651365916
+now start to train
+epoch:320 loss:0.5902882317701975
+now start to train
+epoch:321 loss:0.5906582474708557
+now start to train
+epoch:322 loss:0.5932644704977671
+now start to train
+epoch:323 loss:0.6023522913455963
+now start to train
+epoch:324 loss:0.6079174677530924
+now start to train
+epoch:325 loss:0.6746329168478647
+now start to train
+epoch:326 loss:0.6154742340246836
+now start to train
+epoch:327 loss:0.6148339609305064
+now start to train
+epoch:328 loss:0.6083199977874756
+now start to train
+epoch:329 loss:0.6026883125305176
+now start to train
+epoch:330 loss:0.5865949193636576
+now start to train
+epoch:331 loss:0.5761679708957672
+now start to train
+epoch:332 loss:0.578781376282374
+now start to train
+epoch:333 loss:0.5737681289513906
+now start to train
+epoch:334 loss:0.5958742002646128
+now start to train
+epoch:335 loss:0.5764531890551249
+now start to train
+epoch:336 loss:0.5726158916950226
+now start to train
+epoch:337 loss:0.5708735982577006
+now start to train
+epoch:338 loss:0.6122631629308065
+now start to train
+epoch:339 loss:0.6096520324548086
+now start to train
+epoch:340 loss:0.6306029955546061
+now start to train
+epoch:341 loss:0.6178564528624216
+now start to train
+epoch:342 loss:0.6155615349610647
+now start to train
+epoch:343 loss:0.6028750439484915
+now start to train
+epoch:344 loss:0.587192972501119
+now start to train
+epoch:345 loss:0.5741034746170044
+now start to train
+epoch:346 loss:0.5743032097816467
+now start to train
+epoch:347 loss:0.5685825248559316
+now start to train
+epoch:348 loss:0.5584534108638763
+now start to train
+epoch:349 loss:0.5509939690430959
+now start to train
+epoch:350 loss:0.5496411522229513
+now start to train
+epoch:351 loss:0.5522429247697195
+now start to train
+epoch:352 loss:0.5585306584835052
+now start to train
+epoch:353 loss:0.5642836391925812
+now start to train
+epoch:354 loss:0.5649140775203705
+now start to train
+epoch:355 loss:0.5817914505799612
+now start to train
+epoch:356 loss:0.5731535454591116
+now start to train
+epoch:357 loss:0.5552224020163218
+now start to train
+epoch:358 loss:0.5514382123947144
+now start to train
+epoch:359 loss:0.5464028318723043
+now start to train
+epoch:360 loss:0.5459709465503693
+now start to train
+epoch:361 loss:0.569831778605779
+now start to train
+epoch:362 loss:0.5738409956296285
+now start to train
+epoch:363 loss:0.6323108077049255
+now start to train
+epoch:364 loss:0.581177552541097
+now start to train
+epoch:365 loss:0.5718152324358622
+now start to train
+epoch:366 loss:0.5708989997704824
+now start to train
+epoch:367 loss:0.5641630987326304
+now start to train
+epoch:368 loss:0.613493541876475
+now start to train
+epoch:369 loss:0.5932556291421255
+now start to train
+epoch:370 loss:0.5679340958595276
+now start to train
+epoch:371 loss:0.5526789923508962
+now start to train
+epoch:372 loss:0.5437537729740143
+now start to train
+epoch:373 loss:0.5571069717407227
+now start to train
+epoch:374 loss:0.5382562081019083
+now start to train
+epoch:375 loss:0.5410581131776174
+now start to train
+epoch:376 loss:0.5404987980922064
+now start to train
+epoch:377 loss:0.539482037226359
+now start to train
+epoch:378 loss:0.5504094610611597
+now start to train
+epoch:379 loss:0.5456597407658895
+now start to train
+epoch:380 loss:0.5489470362663269
+now start to train
+epoch:381 loss:0.544611652692159
+now start to train
+epoch:382 loss:0.5357663631439209
+now start to train
+epoch:383 loss:0.5371550023555756
+now start to train
+epoch:384 loss:0.5403696596622467
+now start to train
+epoch:385 loss:0.5483915209770203
+now start to train
+epoch:386 loss:0.5378346741199493
+now start to train
+epoch:387 loss:0.5265968094269434
+now start to train
+epoch:388 loss:0.5325874189535776
+now start to train
+epoch:389 loss:0.5240249931812286
+now start to train
+epoch:390 loss:0.5286399324735006
+now start to train
+epoch:391 loss:0.5468183010816574
+now start to train
+epoch:392 loss:0.5456233620643616
+now start to train
+epoch:393 loss:0.545695349574089
+now start to train
+epoch:394 loss:0.559088389078776
+now start to train
+epoch:395 loss:0.5537337263425192
+now start to train
+epoch:396 loss:0.5467927555243174
+now start to train
+epoch:397 loss:0.5336144864559174
+now start to train
+epoch:398 loss:0.5301508009433746
+now start to train
+epoch:399 loss:0.5324461758136749
+now start to train
+epoch:400 loss:0.5329882701237997
+now start to train
+epoch:401 loss:0.5526157120863596
+now start to train
+epoch:402 loss:0.5710458258787791
+now start to train
+epoch:403 loss:0.560838133096695
+now start to train
+epoch:404 loss:0.536415159702301
+now start to train
+epoch:405 loss:0.54141965508461
+now start to train
+epoch:406 loss:0.5361448526382446
+now start to train
+epoch:407 loss:0.5277073482672373
+now start to train
+epoch:408 loss:0.5289448698361715
+now start to train
+epoch:409 loss:0.523583859205246
+now start to train
+epoch:410 loss:0.5168003588914871
+now start to train
+epoch:411 loss:0.514866292476654
+now start to train
+epoch:412 loss:0.5103793243567148
+now start to train
+epoch:413 loss:0.5066451032956442
+now start to train
+epoch:414 loss:0.5089785059293112
+now start to train
+epoch:415 loss:0.5073839326699575
+now start to train
+epoch:416 loss:0.5126924912134806
+now start to train
+epoch:417 loss:0.4991749127705892
+now start to train
+epoch:418 loss:0.4956720769405365
+now start to train
+epoch:419 loss:0.49874739348888397
+now start to train
+epoch:420 loss:0.5002536028623581
+now start to train
+epoch:421 loss:0.5081536173820496
+now start to train
+epoch:422 loss:0.5019775827725729
+now start to train
+epoch:423 loss:0.5072121520837148
+now start to train
+epoch:424 loss:0.5074061552683512
+now start to train
+epoch:425 loss:0.5715663582086563
+now start to train
+epoch:426 loss:0.5461357335249583
+now start to train
+epoch:427 loss:0.5179736067851385
+now start to train
+epoch:428 loss:0.5130440443754196
+now start to train
+epoch:429 loss:0.543043980995814
+now start to train
+epoch:430 loss:0.5308692256609598
+now start to train
+epoch:431 loss:0.5141671299934387
+now start to train
+epoch:432 loss:0.49958902100721997
+now start to train
+epoch:433 loss:0.4965043862660726
+now start to train
+epoch:434 loss:0.4945576836665471
+now start to train
+epoch:435 loss:0.49604082604249317
+now start to train
+epoch:436 loss:0.4983484148979187
+now start to train
+epoch:437 loss:0.5132103562355042
+now start to train
+epoch:438 loss:0.5052364667256674
+now start to train
+epoch:439 loss:0.4954992284377416
+now start to train
+epoch:440 loss:0.4844791740179062
+now start to train
+epoch:441 loss:0.47958312928676605
+now start to train
+epoch:442 loss:0.48254213730494183
+now start to train
+epoch:443 loss:0.5078745037317276
+now start to train
+epoch:444 loss:0.50640736023585
+now start to train
+epoch:445 loss:0.540673702955246
+now start to train
+epoch:446 loss:0.5272436092297236
+now start to train
+epoch:447 loss:0.5148040254910787
+now start to train
+epoch:448 loss:0.5098001460234324
+now start to train
+epoch:449 loss:0.4976714750130971
+now start to train
+epoch:450 loss:0.48851727445920307
+now start to train
+epoch:451 loss:0.48684657116731006
+now start to train
+epoch:452 loss:0.47965898116429645
+now start to train
+epoch:453 loss:0.47650743027528125
+now start to train
+epoch:454 loss:0.47509423394997913
+now start to train
+epoch:455 loss:0.47768061856428784
+now start to train
+epoch:456 loss:0.47385841111342114
+now start to train
+epoch:457 loss:0.47494982679684955
+now start to train
+epoch:458 loss:0.4950132171312968
+now start to train
+epoch:459 loss:0.5189501394828161
+now start to train
+epoch:460 loss:0.5139779100815455
+now start to train
+epoch:461 loss:0.5112945139408112
+now start to train
+epoch:462 loss:0.5100397368272146
+now start to train
+epoch:463 loss:0.5005365361769994
+now start to train
+epoch:464 loss:0.48880407710870105
+now start to train
+epoch:465 loss:0.4709504097700119
+now start to train
+epoch:466 loss:0.4733424186706543
+now start to train
+epoch:467 loss:0.4774823735157649
+now start to train
+epoch:468 loss:0.46439213554064435
+now start to train
+epoch:469 loss:0.4634045461813609
+now start to train
+epoch:470 loss:0.4676700085401535
+now start to train
+epoch:471 loss:0.4770793120066325
+now start to train
+epoch:472 loss:0.47416191299756366
+now start to train
+epoch:473 loss:0.46401117742061615
+now start to train
+epoch:474 loss:0.4935271888971329
+now start to train
+epoch:475 loss:0.48785890142122906
+now start to train
+epoch:476 loss:0.466453954577446
+now start to train
+epoch:477 loss:0.48300134142239887
+now start to train
+epoch:478 loss:0.4626956234375636
+now start to train
+epoch:479 loss:0.4753305564324061
+now start to train
+epoch:480 loss:0.4700615108013153
+now start to train
+epoch:481 loss:0.4738209893306096
+now start to train
+epoch:482 loss:0.47054732342561084
+now start to train
+epoch:483 loss:0.46601995825767517
+now start to train
+epoch:484 loss:0.46203401188055676
+now start to train
+epoch:485 loss:0.4737628549337387
+now start to train
+epoch:486 loss:0.48342835903167725
+now start to train
+epoch:487 loss:0.46078260739644367
+now start to train
+epoch:488 loss:0.4932376841704051
+now start to train
+epoch:489 loss:0.48015809059143066
+now start to train
+epoch:490 loss:0.4820310523112615
+now start to train
+epoch:491 loss:0.48381419976552326
+now start to train
+epoch:492 loss:0.48145197828610736
+now start to train
+epoch:493 loss:0.4589142253001531
+now start to train
+epoch:494 loss:0.47583411633968353
+now start to train
+epoch:495 loss:0.47198886672655743
+now start to train
+epoch:496 loss:0.4686584969361623
+now start to train
+epoch:497 loss:0.4901518722375234
+now start to train
+epoch:498 loss:0.48714061081409454
+now start to train
+epoch:499 loss:0.46625817318757373
+now start to train
+epoch:500 loss:0.4556746979554494
+now start to train
+epoch:501 loss:0.45141904552777606
+now start to train
+epoch:502 loss:0.44368847211201984
+now start to train
+epoch:503 loss:0.4431948165098826
+now start to train
+epoch:504 loss:0.4609312266111374
+now start to train
+epoch:505 loss:0.45800402263800305
+now start to train
+epoch:506 loss:0.4603892465432485
+now start to train
+epoch:507 loss:0.4465078314145406
+now start to train
+epoch:508 loss:0.44789794584115344
+now start to train
+epoch:509 loss:0.47665275633335114
+now start to train
+epoch:510 loss:0.48131097356478375
+now start to train
+epoch:511 loss:0.46038100123405457
+now start to train
+epoch:512 loss:0.4393190195163091
+now start to train
+epoch:513 loss:0.43939467271169025
+now start to train
+epoch:514 loss:0.43424438933531445
+now start to train
+epoch:515 loss:0.42760977149009705
+now start to train
+epoch:516 loss:0.43399794896443683
+now start to train
+epoch:517 loss:0.47087182104587555
+now start to train
+epoch:518 loss:0.47496945162614185
+now start to train
+epoch:519 loss:0.4678441534439723
+now start to train
+epoch:520 loss:0.4468850592772166
+now start to train
+epoch:521 loss:0.44903207818667096
+now start to train
+epoch:522 loss:0.4763682931661606
+now start to train
+epoch:523 loss:0.4536971350510915
+now start to train
+epoch:524 loss:0.4620222896337509
+now start to train
+epoch:525 loss:0.4965565353631973
+now start to train
+epoch:526 loss:0.4815431932608287
+now start to train
+epoch:527 loss:0.4587366928656896
+now start to train
+epoch:528 loss:0.44792161385218304
+now start to train
+epoch:529 loss:0.45542780061562854
+now start to train
+epoch:530 loss:0.45819227397441864
+now start to train
+epoch:531 loss:0.4542836497227351
+now start to train
+epoch:532 loss:0.4649127672115962
+now start to train
+epoch:533 loss:0.46505968272686005
+now start to train
+epoch:534 loss:0.4388956030209859
+now start to train
+epoch:535 loss:0.4595462928215663
+now start to train
+epoch:536 loss:0.45080172022183734
+now start to train
+epoch:537 loss:0.44188540677229565
+now start to train
+epoch:538 loss:0.4343212942282359
+now start to train
+epoch:539 loss:0.4289350012938182
+now start to train
+epoch:540 loss:0.4194297840197881
+now start to train
+epoch:541 loss:0.4245360940694809
+now start to train
+epoch:542 loss:0.4320479879776637
+now start to train
+epoch:543 loss:0.42558056116104126
+now start to train
+epoch:544 loss:0.4244458079338074
+now start to train
+epoch:545 loss:0.4258822500705719
+now start to train
+epoch:546 loss:0.4392450998226802
+now start to train
+epoch:547 loss:0.4368611623843511
+now start to train
+epoch:548 loss:0.4341843177874883
+now start to train
+epoch:549 loss:0.4308271457751592
+now start to train
+epoch:550 loss:0.4273749937613805
+now start to train
+epoch:551 loss:0.4407568524281184
+now start to train
+epoch:552 loss:0.46274008353551227
+now start to train
+epoch:553 loss:0.46371152500311535
+now start to train
+epoch:554 loss:0.4528127610683441
+now start to train
+epoch:555 loss:0.45777323842048645
+now start to train
+epoch:556 loss:0.43830782175064087
+now start to train
+epoch:557 loss:0.4222521036863327
+now start to train
+epoch:558 loss:0.40922490259011585
+now start to train
+epoch:559 loss:0.40844839811325073
+now start to train
+epoch:560 loss:0.4060092717409134
+now start to train
+epoch:561 loss:0.4189111938079198
+now start to train
+epoch:562 loss:0.4141848136981328
+now start to train
+epoch:563 loss:0.40375983218352
+now start to train
+epoch:564 loss:0.40197726090749103
+now start to train
+epoch:565 loss:0.3993417024612427
+now start to train
+epoch:566 loss:0.3981324185927709
+now start to train
+epoch:567 loss:0.40317844847838086
+now start to train
+epoch:568 loss:0.40854886174201965
+now start to train
+epoch:569 loss:0.4152367611726125
+now start to train
+epoch:570 loss:0.4261586268742879
+now start to train
+epoch:571 loss:0.42103634277979535
+now start to train
+epoch:572 loss:0.41992990175882977
+now start to train
+epoch:573 loss:0.4157959371805191
+now start to train
+epoch:574 loss:0.43358371158440906
+now start to train
+epoch:575 loss:0.4362204074859619
+now start to train
+epoch:576 loss:0.4371053824822108
+now start to train
+epoch:577 loss:0.430031955242157
+now start to train
+epoch:578 loss:0.4314554234345754
+now start to train
+epoch:579 loss:0.41646355390548706
+now start to train
+epoch:580 loss:0.40809695422649384
+now start to train
+epoch:581 loss:0.4158766269683838
+now start to train
+epoch:582 loss:0.41312652329603833
+now start to train
+epoch:583 loss:0.42713572084903717
+now start to train
+epoch:584 loss:0.41353926062583923
+now start to train
+epoch:585 loss:0.42474453647931415
+now start to train
+epoch:586 loss:0.43019788960615796
+now start to train
+epoch:587 loss:0.4186373750368754
+now start to train
+epoch:588 loss:0.4205596596002579
+now start to train
+epoch:589 loss:0.40961650013923645
+now start to train
+epoch:590 loss:0.39835185805956524
+now start to train
+epoch:591 loss:0.3921733150879542
+now start to train
+epoch:592 loss:0.3936520765225093
+now start to train
+epoch:593 loss:0.39200814068317413
+now start to train
+epoch:594 loss:0.3970212737719218
+now start to train
+epoch:595 loss:0.39689573645591736
+now start to train
+epoch:596 loss:0.4042193839947383
+now start to train
+epoch:597 loss:0.4198633134365082
+now start to train
+epoch:598 loss:0.4167664597431819
+now start to train
+epoch:599 loss:0.4137153923511505
+now start to train
+epoch:600 loss:0.43864281475543976
+now start to train
+epoch:601 loss:0.45179589092731476
+now start to train
+epoch:602 loss:0.4310148259003957
+now start to train
+epoch:603 loss:0.43380749225616455
+now start to train
+epoch:604 loss:0.4128606816132863
+now start to train
+epoch:605 loss:0.4017440229654312
+now start to train
+epoch:606 loss:0.40116025507450104
+now start to train
+epoch:607 loss:0.39308976133664447
+now start to train
+epoch:608 loss:0.39019396404425305
+now start to train
+epoch:609 loss:0.4044618258873622
+now start to train
+epoch:610 loss:0.38910770912965137
+now start to train
+epoch:611 loss:0.3868982046842575
+now start to train
+epoch:612 loss:0.3846054623524348
+now start to train
+epoch:613 loss:0.37739471594492596
+now start to train
+epoch:614 loss:0.37739522755146027
+now start to train
+epoch:615 loss:0.3818001449108124
+now start to train
+epoch:616 loss:0.39291201035181683
+now start to train
+epoch:617 loss:0.3781624933083852
+now start to train
+epoch:618 loss:0.37536140779654187
+now start to train
+epoch:619 loss:0.371206854780515
+now start to train
+epoch:620 loss:0.376481627424558
+now start to train
+epoch:621 loss:0.3853827516237895
+now start to train
+epoch:622 loss:0.39780083298683167
+now start to train
+epoch:623 loss:0.38410775860150653
+now start to train
+epoch:624 loss:0.3984200457731883
+now start to train
+epoch:625 loss:0.38537678122520447
+now start to train
+epoch:626 loss:0.3884080747763316
+now start to train
+epoch:627 loss:0.3895203371842702
+now start to train
+epoch:628 loss:0.4554645319779714
+now start to train
+epoch:629 loss:0.4105191230773926
+now start to train
+epoch:630 loss:0.3920488655567169
+now start to train
+epoch:631 loss:0.38663703699906665
+now start to train
+epoch:632 loss:0.3747641444206238
+now start to train
+epoch:633 loss:0.3619858920574188
+now start to train
+epoch:634 loss:0.3624371290206909
+now start to train
+epoch:635 loss:0.3562733481327693
+now start to train
+epoch:636 loss:0.36307292183240253
+now start to train
+epoch:637 loss:0.38612579305966693
+now start to train
+epoch:638 loss:0.40977441767851513
+now start to train
+epoch:639 loss:0.38929271697998047
+now start to train
+epoch:640 loss:0.3912593424320221
+now start to train
+epoch:641 loss:0.3672744929790497
+now start to train
+epoch:642 loss:0.36185383299986523
+now start to train
+epoch:643 loss:0.35700708130995434
+now start to train
+epoch:644 loss:0.3825962742169698
+now start to train
+epoch:645 loss:0.38438624640305835
+now start to train
+epoch:646 loss:0.4578866958618164
+now start to train
+epoch:647 loss:0.47671327988306683
+now start to train
+epoch:648 loss:0.43615245322386426
+now start to train
+epoch:649 loss:0.42264428238073987
+now start to train
+epoch:650 loss:0.41791702310244244
+now start to train
+epoch:651 loss:0.39239033063252765
+now start to train
+epoch:652 loss:0.3976120452086131
+now start to train
+epoch:653 loss:0.427541047334671
+now start to train
+epoch:654 loss:0.3985397169987361
+now start to train
+epoch:655 loss:0.39428506791591644
+now start to train
+epoch:656 loss:0.39398432274659473
+now start to train
+epoch:657 loss:0.3835401286681493
+now start to train
+epoch:658 loss:0.37992390990257263
+now start to train
+epoch:659 loss:0.3770254005988439
+now start to train
+epoch:660 loss:0.3720106929540634
+now start to train
+epoch:661 loss:0.37385323643684387
+now start to train
+epoch:662 loss:0.3704787840445836
+now start to train
+epoch:663 loss:0.3670646945635478
+now start to train
+epoch:664 loss:0.3672189066807429
+now start to train
+epoch:665 loss:0.36683760086695355
+now start to train
+epoch:666 loss:0.3707740555206935
+now start to train
+epoch:667 loss:0.36067017912864685
+now start to train
+epoch:668 loss:0.35508152345816296
+now start to train
+epoch:669 loss:0.3512778927882512
+now start to train
+epoch:670 loss:0.3497810314098994
+now start to train
+epoch:671 loss:0.3517870008945465
+now start to train
+epoch:672 loss:0.36305803060531616
+now start to train
+epoch:673 loss:0.3937518199284871
+now start to train
+epoch:674 loss:0.3928479353586833
+now start to train
+epoch:675 loss:0.424406756957372
+now start to train
+epoch:676 loss:0.39783703287442523
+now start to train
+epoch:677 loss:0.3785099387168884
+now start to train
+epoch:678 loss:0.36145907640457153
+now start to train
+epoch:679 loss:0.38943492372830707
+now start to train
+epoch:680 loss:0.3742017199595769
+now start to train
+epoch:681 loss:0.36171960830688477
+now start to train
+epoch:682 loss:0.3535523513952891
+now start to train
+epoch:683 loss:0.3469851811726888
+now start to train
+epoch:684 loss:0.3511837323506673
+now start to train
+epoch:685 loss:0.3498872270186742
+now start to train
+epoch:686 loss:0.3575373242298762
+now start to train
+epoch:687 loss:0.3707209527492523
+now start to train
+epoch:688 loss:0.35977451503276825
+now start to train
+epoch:689 loss:0.348244587580363
+now start to train
+epoch:690 loss:0.34398411711057025
+now start to train
+epoch:691 loss:0.3428345223267873
+now start to train
+epoch:692 loss:0.33764606217543286
+now start to train
+epoch:693 loss:0.345268189907074
+now start to train
+epoch:694 loss:0.3452676981687546
+now start to train
+epoch:695 loss:0.34770117700099945
+now start to train
+epoch:696 loss:0.35354461272557575
+now start to train
+epoch:697 loss:0.3504267732302348
+now start to train
+epoch:698 loss:0.3721775511900584
+now start to train
+epoch:699 loss:0.3527236382166545
+now start to train
+epoch:700 loss:0.34705530603726703
+now start to train
+epoch:701 loss:0.3304173946380615
+now start to train
+epoch:702 loss:0.3391226679086685
+now start to train
+epoch:703 loss:0.3627626697222392
+now start to train
+epoch:704 loss:0.3615290770928065
+now start to train
+epoch:705 loss:0.35877420008182526
+now start to train
+epoch:706 loss:0.34251663585503894
+now start to train
+epoch:707 loss:0.33510872224966687
+now start to train
+epoch:708 loss:0.3272255063056946
+now start to train
+epoch:709 loss:0.32158535222212475
+now start to train
+epoch:710 loss:0.32182488838831586
+now start to train
+epoch:711 loss:0.3171881139278412
+now start to train
+epoch:712 loss:0.3280493716398875
+now start to train
+epoch:713 loss:0.33211679259936017
+now start to train
+epoch:714 loss:0.34662436445554096
+now start to train
+epoch:715 loss:0.3871278464794159
+now start to train
+epoch:716 loss:0.372705673178037
+now start to train
+epoch:717 loss:0.3635350565115611
+now start to train
+epoch:718 loss:0.3525804082552592
+now start to train
+epoch:719 loss:0.338495209813118
+now start to train
+epoch:720 loss:0.34134018421173096
+now start to train
+epoch:721 loss:0.33450940748055774
+now start to train
+epoch:722 loss:0.3297304610411326
+now start to train
+epoch:723 loss:0.32006145517031354
+now start to train
+epoch:724 loss:0.31679391860961914
+now start to train
+epoch:725 loss:0.32860131561756134
+now start to train
+epoch:726 loss:0.33716295659542084
+now start to train
+epoch:727 loss:0.349947785337766
+now start to train
+epoch:728 loss:0.3401808689037959
+now start to train
+epoch:729 loss:0.3275151501099269
+now start to train
+epoch:730 loss:0.3219832132260005
+now start to train
+epoch:731 loss:0.31891803940137226
+now start to train
+epoch:732 loss:0.31970998148123425
+now start to train
+epoch:733 loss:0.3134427070617676
+now start to train
+epoch:734 loss:0.3263282775878906
+now start to train
+epoch:735 loss:0.33640964329242706
+now start to train
+epoch:736 loss:0.3323924293120702
+now start to train
+epoch:737 loss:0.36618462204933167
+now start to train
+epoch:738 loss:0.38273079693317413
+now start to train
+epoch:739 loss:0.38263551394144696
+now start to train
+epoch:740 loss:0.3475857029358546
+now start to train
+epoch:741 loss:0.3416360368331273
+now start to train
+epoch:742 loss:0.3334987858931224
+now start to train
+epoch:743 loss:0.34559886654218036
+now start to train
+epoch:744 loss:0.3345893969138463
+now start to train
+epoch:745 loss:0.32130247354507446
+now start to train
+epoch:746 loss:0.3151217848062515
+now start to train
+epoch:747 loss:0.30841810007890064
+now start to train
+epoch:748 loss:0.3109566072622935
+now start to train
+epoch:749 loss:0.3074790686368942
+now start to train
+epoch:750 loss:0.31183044612407684
+now start to train
+epoch:751 loss:0.3128984769185384
+now start to train
+epoch:752 loss:0.328064501285553
+now start to train
+epoch:753 loss:0.33335235218207043
+now start to train
+epoch:754 loss:0.3524714062611262
+now start to train
+epoch:755 loss:0.3701625019311905
+now start to train
+epoch:756 loss:0.3516603112220764
+now start to train
+epoch:757 loss:0.33327917754650116
+now start to train
+epoch:758 loss:0.32369303206602734
+now start to train
+epoch:759 loss:0.3327833116054535
+now start to train
+epoch:760 loss:0.34962551792462665
+now start to train
+epoch:761 loss:0.35529762506484985
+now start to train
+epoch:762 loss:0.36245747407277423
+now start to train
+epoch:763 loss:0.3356523960828781
+now start to train
+epoch:764 loss:0.341731533408165
+now start to train
+epoch:765 loss:0.3432617137829463
+now start to train
+epoch:766 loss:0.3460729817549388
+now start to train
+epoch:767 loss:0.3447170505921046
+now start to train
+epoch:768 loss:0.32180917759736377
+now start to train
+epoch:769 loss:0.31558628380298615
+now start to train
+epoch:770 loss:0.3351719528436661
+now start to train
+epoch:771 loss:0.3527338107426961
+now start to train
+epoch:772 loss:0.33127011358737946
+now start to train
+epoch:773 loss:0.32851195335388184
+now start to train
+epoch:774 loss:0.32398976882298786
+now start to train
+epoch:775 loss:0.3178873012463252
+now start to train
+epoch:776 loss:0.3356465349594752
+now start to train
+epoch:777 loss:0.33244045575459796
+now start to train
+epoch:778 loss:0.3213888804117839
+now start to train
+epoch:779 loss:0.3080827246109645
+now start to train
+epoch:780 loss:0.307007297873497
+now start to train
+epoch:781 loss:0.29898662368456524
+now start to train
+epoch:782 loss:0.3045390745004018
+now start to train
+epoch:783 loss:0.3077312111854553
+now start to train
+epoch:784 loss:0.30925170083840686
+now start to train
+epoch:785 loss:0.312528262535731
+now start to train
+epoch:786 loss:0.30734411875406903
+now start to train
+epoch:787 loss:0.30466001977523166
+now start to train
+epoch:788 loss:0.293235811094443
+now start to train
+epoch:789 loss:0.29044683774312335
+now start to train
+epoch:790 loss:0.29069290558497113
+now start to train
+epoch:791 loss:0.29640891154607135
+now start to train
+epoch:792 loss:0.3017680694659551
+now start to train
+epoch:793 loss:0.3043009042739868
+now start to train
+epoch:794 loss:0.3140404224395752
+now start to train
+epoch:795 loss:0.30904895067214966
+now start to train
+epoch:796 loss:0.31327418486277264
+now start to train
+epoch:797 loss:0.38214682042598724
+now start to train
+epoch:798 loss:0.392488827308019
+now start to train
+epoch:799 loss:0.3543144414822261
+now start to train
+epoch:800 loss:0.3371708542108536
+now start to train
+epoch:801 loss:0.33337531983852386
+now start to train
+epoch:802 loss:0.332246666153272
+now start to train
+epoch:803 loss:0.326526939868927
+now start to train
+epoch:804 loss:0.3030987133582433
+now start to train
+epoch:805 loss:0.29753554860750836
+now start to train
+epoch:806 loss:0.3007165988286336
+now start to train
+epoch:807 loss:0.3012520670890808
+now start to train
+epoch:808 loss:0.3006299038728078
+now start to train
+epoch:809 loss:0.2908315509557724
+now start to train
+epoch:810 loss:0.28489259878794354
+now start to train
+epoch:811 loss:0.2868688354889552
+now start to train
+epoch:812 loss:0.2865754117568334
+now start to train
+epoch:813 loss:0.28356725970904034
+now start to train
+epoch:814 loss:0.27893638362487155
+now start to train
+epoch:815 loss:0.2787392387787501
+now start to train
+epoch:816 loss:0.27961544692516327
+now start to train
+epoch:817 loss:0.2813867429892222
+now start to train
+epoch:818 loss:0.2940172652403514
+now start to train
+epoch:819 loss:0.2920212099949519
+now start to train
+epoch:820 loss:0.2810085614522298
+now start to train
+epoch:821 loss:0.29510360459486645
+now start to train
+epoch:822 loss:0.32258758942286175
+now start to train
+epoch:823 loss:0.31486837565898895
+now start to train
+epoch:824 loss:0.3076535115639369
+now start to train
+epoch:825 loss:0.29149219393730164
+now start to train
+epoch:826 loss:0.2822557141383489
+now start to train
+epoch:827 loss:0.2824176996946335
+now start to train
+epoch:828 loss:0.28016823530197144
+now start to train
+epoch:829 loss:0.2819219281276067
+now start to train
+epoch:830 loss:0.3087206582228343
+now start to train
+epoch:831 loss:0.3018696258465449
+now start to train
+epoch:832 loss:0.283673753341039
+now start to train
+epoch:833 loss:0.2782580455144246
+now start to train
+epoch:834 loss:0.29419205089410144
+now start to train
+epoch:835 loss:0.2981426417827606
+now start to train
+epoch:836 loss:0.30045275886853534
+now start to train
+epoch:837 loss:0.3057023584842682
+now start to train
+epoch:838 loss:0.34406381845474243
+now start to train
+epoch:839 loss:0.3543876012166341
+now start to train
+epoch:840 loss:0.33515579005082446
+now start to train
+epoch:841 loss:0.35120226442813873
+now start to train
+epoch:842 loss:0.3258393108844757
+now start to train
+epoch:843 loss:0.3119664937257767
+now start to train
+epoch:844 loss:0.2975168625513713
+now start to train
+epoch:845 loss:0.28702760736147565
+now start to train
+epoch:846 loss:0.2846037795146306
+now start to train
+epoch:847 loss:0.2892763465642929
+now start to train
+epoch:848 loss:0.2867088168859482
+now start to train
+epoch:849 loss:0.2732660050193469
+now start to train
+epoch:850 loss:0.2742857833703359
+now start to train
+epoch:851 loss:0.2800137624144554
+now start to train
+epoch:852 loss:0.2859390825033188
+now start to train
+epoch:853 loss:0.28891047835350037
+now start to train
+epoch:854 loss:0.28029808153708774
+now start to train
+epoch:855 loss:0.2797039399544398
+now start to train
+epoch:856 loss:0.27124398698409397
+now start to train
+epoch:857 loss:0.27351099749406177
+now start to train
+epoch:858 loss:0.2741580953200658
+now start to train
+epoch:859 loss:0.28421566883722943
+now start to train
+epoch:860 loss:0.27652119596799213
+now start to train
+epoch:861 loss:0.277018462618192
+now start to train
+epoch:862 loss:0.2765579919020335
+now start to train
+epoch:863 loss:0.2726749926805496
+now start to train
+epoch:864 loss:0.27048976471026737
+now start to train
+epoch:865 loss:0.26729733993609744
+now start to train
+epoch:866 loss:0.263889379799366
+now start to train
+epoch:867 loss:0.26281984398762387
+now start to train
+epoch:868 loss:0.26316332320372265
+now start to train
+epoch:869 loss:0.266538826127847
+now start to train
+epoch:870 loss:0.28006354222695035
+now start to train
+epoch:871 loss:0.30402838687102
+now start to train
+epoch:872 loss:0.3210444947083791
+now start to train
+epoch:873 loss:0.316074937582016
+now start to train
+epoch:874 loss:0.29735854268074036
+now start to train
+epoch:875 loss:0.2847328136364619
+now start to train
+epoch:876 loss:0.27746811509132385
+now start to train
+epoch:877 loss:0.2759395067890485
+now start to train
+epoch:878 loss:0.2720404764016469
+now start to train
+epoch:879 loss:0.2709590767820676
+now start to train
+epoch:880 loss:0.26500240961710614
+now start to train
+epoch:881 loss:0.26860688378413516
+now start to train
+epoch:882 loss:0.27455132206281024
+now start to train
+epoch:883 loss:0.29345158239205676
+now start to train
+epoch:884 loss:0.2885514150063197
+now start to train
+epoch:885 loss:0.2731160720189412
+now start to train
+epoch:886 loss:0.2715478887160619
+now start to train
+epoch:887 loss:0.2642095188299815
+now start to train
+epoch:888 loss:0.2655009130636851
+now start to train
+epoch:889 loss:0.27648302416006726
+now start to train
+epoch:890 loss:0.29150644689798355
+now start to train
+epoch:891 loss:0.3176524837811788
+now start to train
+epoch:892 loss:0.3009927074114482
+now start to train
+epoch:893 loss:0.29552312692006427
+now start to train
+epoch:894 loss:0.27506010234355927
+now start to train
+epoch:895 loss:0.28001317878564197
+now start to train
+epoch:896 loss:0.2862037271261215
+now start to train
+epoch:897 loss:0.3018637994925181
+now start to train
+epoch:898 loss:0.2806812475124995
+now start to train
+epoch:899 loss:0.2692265560229619
+now start to train
+epoch:900 loss:0.2776350701848666
+now start to train
+epoch:901 loss:0.2764823039372762
+now start to train
+epoch:902 loss:0.2996865560611089
+now start to train
+epoch:903 loss:0.2875854820013046
+now start to train
+epoch:904 loss:0.27584799379110336
+now start to train
+epoch:905 loss:0.27114952107270557
+now start to train
+epoch:906 loss:0.26525148500998813
+now start to train
+epoch:907 loss:0.2628299792607625
+now start to train
+epoch:908 loss:0.2569010406732559
+now start to train
+epoch:909 loss:0.25923293828964233
+now start to train
+epoch:910 loss:0.2570660039782524
+now start to train
+epoch:911 loss:0.2479711969693502
+now start to train
+epoch:912 loss:0.25500446806351346
+now start to train
+epoch:913 loss:0.2708306759595871
+now start to train
+epoch:914 loss:0.302982101837794
+now start to train
+epoch:915 loss:0.3131207426389058
+now start to train
+epoch:916 loss:0.314045454065005
+now start to train
+epoch:917 loss:0.28465663890043896
+now start to train
+epoch:918 loss:0.2711462825536728
+now start to train
+epoch:919 loss:0.26514533658822376
+now start to train
+epoch:920 loss:0.2594836006561915
+now start to train
+epoch:921 loss:0.24899554500977197
+now start to train
+epoch:922 loss:0.250938318669796
+now start to train
+epoch:923 loss:0.25196314851442975
+now start to train
+epoch:924 loss:0.24484272301197052
+now start to train
+epoch:925 loss:0.24982656786839166
+now start to train
+epoch:926 loss:0.24469643086194992
+now start to train
+epoch:927 loss:0.24189416070779166
+now start to train
+epoch:928 loss:0.2461558779080709
+now start to train
+epoch:929 loss:0.2374490648508072
+now start to train
+epoch:930 loss:0.24490433186292648
+now start to train
+epoch:931 loss:0.2385529006520907
+now start to train
+epoch:932 loss:0.24060649424791336
+now start to train
+epoch:933 loss:0.23911629368861517
+now start to train
+epoch:934 loss:0.24145050098498663
+now start to train
+epoch:935 loss:0.2458862910668055
+now start to train
+epoch:936 loss:0.2502826328078906
+now start to train
+epoch:937 loss:0.27782246718804043
+now start to train
+epoch:938 loss:0.2848014334837596
+now start to train
+epoch:939 loss:0.28650958836078644
+now start to train
+epoch:940 loss:0.2815643399953842
+now start to train
+epoch:941 loss:0.27272797127564746
+now start to train
+epoch:942 loss:0.25873372703790665
+now start to train
+epoch:943 loss:0.2577679355939229
+now start to train
+epoch:944 loss:0.24908319363991419
+now start to train
+epoch:945 loss:0.25509998202323914
+now start to train
+epoch:946 loss:0.2528011401494344
+now start to train
+epoch:947 loss:0.24947306017080942
+now start to train
+epoch:948 loss:0.2356630191206932
+now start to train
+epoch:949 loss:0.23830698678890863
+now start to train
+epoch:950 loss:0.24540855238835016
+now start to train
+epoch:951 loss:0.24675324062506357
+now start to train
+epoch:952 loss:0.25994546711444855
+now start to train
+epoch:953 loss:0.2622029781341553
+now start to train
+epoch:954 loss:0.2524642050266266
+now start to train
+epoch:955 loss:0.24054910987615585
+now start to train
+epoch:956 loss:0.2398500218987465
+now start to train
+epoch:957 loss:0.23589600374301276
+now start to train
+epoch:958 loss:0.23439557602008185
+now start to train
+epoch:959 loss:0.2375281353791555
+now start to train
+epoch:960 loss:0.23350324233373007
+now start to train
+epoch:961 loss:0.2291832615931829
+now start to train
+epoch:962 loss:0.23141354074080786
+now start to train
+epoch:963 loss:0.2325683981180191
+now start to train
+epoch:964 loss:0.23296411087115607
+now start to train
+epoch:965 loss:0.24046978602806726
+now start to train
+epoch:966 loss:0.24151614060004553
+now start to train
+epoch:967 loss:0.23561600347359976
+now start to train
+epoch:968 loss:0.2332047720750173
+now start to train
+epoch:969 loss:0.23156751692295074
+now start to train
+epoch:970 loss:0.2244943529367447
+now start to train
+epoch:971 loss:0.22670484334230423
+now start to train
+epoch:972 loss:0.22136328369379044
+now start to train
+epoch:973 loss:0.22631544868151346
+now start to train
+epoch:974 loss:0.2220555047194163
+now start to train
+epoch:975 loss:0.21890480568011603
+now start to train
+epoch:976 loss:0.2205984890460968
+now start to train
+epoch:977 loss:0.21801550189654031
+now start to train
+epoch:978 loss:0.22905169427394867
+now start to train
+epoch:979 loss:0.23664861172437668
+now start to train
+epoch:980 loss:0.23247937361399332
+now start to train
+epoch:981 loss:0.23213686794042587
+now start to train
+epoch:982 loss:0.23551984131336212
+now start to train
+epoch:983 loss:0.23599338034788767
+now start to train
+epoch:984 loss:0.2376017520825068
+now start to train
+epoch:985 loss:0.23718943198521933
+now start to train
+epoch:986 loss:0.24357403814792633
+now start to train
+epoch:987 loss:0.24886790414651236
+now start to train
+epoch:988 loss:0.24537890901168188
+now start to train
+epoch:989 loss:0.2346552014350891
+now start to train
+epoch:990 loss:0.23940886557102203
+now start to train
+epoch:991 loss:0.23572995513677597
+now start to train
+epoch:992 loss:0.2478511929512024
+now start to train
+epoch:993 loss:0.24973048021396002
+now start to train
+epoch:994 loss:0.25933971504370373
+now start to train
+epoch:995 loss:0.24663720528284708
+now start to train
+epoch:996 loss:0.2515217488010724
+now start to train
+epoch:997 loss:0.23027409861485162
+now start to train
+epoch:998 loss:0.23808262745539346
+now start to train
+epoch:999 loss:0.23614398141702017
+now start to train
+epoch:1000 loss:0.22677589704593024
+now start to train
+epoch:1001 loss:0.226193035642306
+now start to train
+epoch:1002 loss:0.22543526689211527
+now start to train
+epoch:1003 loss:0.2311155175169309
+now start to train
+epoch:1004 loss:0.24318712701400122
+now start to train
+epoch:1005 loss:0.2447380299369494
+now start to train
+epoch:1006 loss:0.22723028808832169
+now start to train
+epoch:1007 loss:0.2266942784190178
+now start to train
+epoch:1008 loss:0.21779566506544748
+now start to train
+epoch:1009 loss:0.2283774216969808
+now start to train
+epoch:1010 loss:0.23456129680077234
+now start to train
+epoch:1011 loss:0.22385051101446152
+now start to train
+epoch:1012 loss:0.22327969471613565
+now start to train
+epoch:1013 loss:0.23329644898573557
+now start to train
+epoch:1014 loss:0.2350280632575353
+now start to train
+epoch:1015 loss:0.2502017269531886
+now start to train
+epoch:1016 loss:0.2709210316340129
+now start to train
+epoch:1017 loss:0.26390158385038376
+now start to train
+epoch:1018 loss:0.24579554796218872
+now start to train
+epoch:1019 loss:0.22903991242249808
+now start to train
+epoch:1020 loss:0.22105047603448233
+now start to train
+epoch:1021 loss:0.221306840578715
+now start to train
+epoch:1022 loss:0.2284007395307223
+now start to train
+epoch:1023 loss:0.23284398267666498
+now start to train
+epoch:1024 loss:0.23831814527511597
+now start to train
+epoch:1025 loss:0.24306959410508475
+now start to train
+epoch:1026 loss:0.22933886696894965
+now start to train
+epoch:1027 loss:0.22343914210796356
+now start to train
+epoch:1028 loss:0.22168598820765814
+now start to train
+epoch:1029 loss:0.21425611277421316
+now start to train
+epoch:1030 loss:0.22933480640252432
+now start to train
+epoch:1031 loss:0.22869273026784262
+now start to train
+epoch:1032 loss:0.21690165996551514
+now start to train
+epoch:1033 loss:0.20866754154364267
+now start to train
+epoch:1034 loss:0.21018623809019724
+now start to train
+epoch:1035 loss:0.22108965863784155
+now start to train
+epoch:1036 loss:0.24178335070610046
+now start to train
+epoch:1037 loss:0.24605259795983633
+now start to train
+epoch:1038 loss:0.2421597217520078
+now start to train
+epoch:1039 loss:0.2205339496334394
+now start to train
+epoch:1040 loss:0.21375251561403275
+now start to train
+epoch:1041 loss:0.20890129854281744
+now start to train
+epoch:1042 loss:0.20653135826190314
+now start to train
+epoch:1043 loss:0.201777753730615
+now start to train
+epoch:1044 loss:0.20367311437924704
+now start to train
+epoch:1045 loss:0.202309379975001
+now start to train
+epoch:1046 loss:0.20243676006793976
+now start to train
+epoch:1047 loss:0.20833038290341696
+now start to train
+epoch:1048 loss:0.22595431158939996
+now start to train
+epoch:1049 loss:0.22166872272888818
+now start to train
+epoch:1050 loss:0.21180475254853567
+now start to train
+epoch:1051 loss:0.21101811528205872
+now start to train
+epoch:1052 loss:0.2122194841504097
+now start to train
+epoch:1053 loss:0.20367316156625748
+now start to train
+epoch:1054 loss:0.20138645420471826
+now start to train
+epoch:1055 loss:0.20675770193338394
+now start to train
+epoch:1056 loss:0.21537947406371435
+now start to train
+epoch:1057 loss:0.21054747452338538
+now start to train
+epoch:1058 loss:0.20681053648392358
+now start to train
+epoch:1059 loss:0.20260997116565704
+now start to train
+epoch:1060 loss:0.19917145123084387
+now start to train
+epoch:1061 loss:0.2031219849983851
+now start to train
+epoch:1062 loss:0.20647740115722021
+now start to train
+epoch:1063 loss:0.2086427261432012
+now start to train
+epoch:1064 loss:0.22526405254999796
+now start to train
+epoch:1065 loss:0.23834234227736792
+now start to train
+epoch:1066 loss:0.22976631671190262
+now start to train
+epoch:1067 loss:0.23097574959198633
+now start to train
+epoch:1068 loss:0.2405403753121694
+now start to train
+epoch:1069 loss:0.2716638793547948
+now start to train
+epoch:1070 loss:0.2476399689912796
+now start to train
+epoch:1071 loss:0.23443332314491272
+now start to train
+epoch:1072 loss:0.221058651804924
+now start to train
+epoch:1073 loss:0.21353785445292792
+now start to train
+epoch:1074 loss:0.21409871677557626
+now start to train
+epoch:1075 loss:0.2118008385101954
+now start to train
+epoch:1076 loss:0.21666157245635986
+now start to train
+epoch:1077 loss:0.20674466590086618
+now start to train
+epoch:1078 loss:0.20477472990751266
+now start to train
+epoch:1079 loss:0.20842385043700537
+now start to train
+epoch:1080 loss:0.21907168626785278
+now start to train
+epoch:1081 loss:0.21787737806638083
+now start to train
+epoch:1082 loss:0.2266897310813268
+now start to train
+epoch:1083 loss:0.23197768876949945
+now start to train
+epoch:1084 loss:0.22025589644908905
+now start to train
+epoch:1085 loss:0.22155461211999258
+now start to train
+epoch:1086 loss:0.2200152948498726
+now start to train
+epoch:1087 loss:0.2063262164592743
+now start to train
+epoch:1088 loss:0.19667750845352808
+now start to train
+epoch:1089 loss:0.20131265372037888
+now start to train
+epoch:1090 loss:0.19515824566284815
+now start to train
+epoch:1091 loss:0.19790718952814737
+now start to train
+epoch:1092 loss:0.19301103800535202
+now start to train
+epoch:1093 loss:0.19456952810287476
+now start to train
+epoch:1094 loss:0.19555470844109854
+now start to train
+epoch:1095 loss:0.1940974419315656
+now start to train
+epoch:1096 loss:0.19485118488470712
+now start to train
+epoch:1097 loss:0.18754522999127707
+now start to train
+epoch:1098 loss:0.18936287860075632
+now start to train
+epoch:1099 loss:0.19820678979158401
+now start to train
+epoch:1100 loss:0.19147776563962302
+now start to train
+epoch:1101 loss:0.19266775995492935
+now start to train
+epoch:1102 loss:0.19196701546510062
+now start to train
+epoch:1103 loss:0.18398408343394598
+now start to train
+epoch:1104 loss:0.1880027006069819
+now start to train
+epoch:1105 loss:0.1960220461090406
+now start to train
+epoch:1106 loss:0.19475101182858148
+now start to train
+epoch:1107 loss:0.1936381757259369
+now start to train
+epoch:1108 loss:0.1918935328722
+now start to train
+epoch:1109 loss:0.18877139687538147
+now start to train
+epoch:1110 loss:0.1867713729540507
+now start to train
+epoch:1111 loss:0.1895631899436315
+now start to train
+epoch:1112 loss:0.19539126008749008
+now start to train
+epoch:1113 loss:0.2064176027973493
+now start to train
+epoch:1114 loss:0.20072738329569498
+now start to train
+epoch:1115 loss:0.22078385204076767
+now start to train
+epoch:1116 loss:0.22196858127911887
+now start to train
+epoch:1117 loss:0.20773772646983465
+now start to train
+epoch:1118 loss:0.20327290644248328
+now start to train
+epoch:1119 loss:0.19857443620761236
+now start to train
+epoch:1120 loss:0.20610943684975305
+now start to train
+epoch:1121 loss:0.23068057000637054
+now start to train
+epoch:1122 loss:0.2432735711336136
+now start to train
+epoch:1123 loss:0.2222200110554695
+now start to train
+epoch:1124 loss:0.21168150007724762
+now start to train
+epoch:1125 loss:0.19351681570212045
+now start to train
+epoch:1126 loss:0.19412778814633688
+now start to train
+epoch:1127 loss:0.2005390226840973
+now start to train
+epoch:1128 loss:0.19610588004191717
+now start to train
+epoch:1129 loss:0.18322410682837167
+now start to train
+epoch:1130 loss:0.17757532000541687
+now start to train
+epoch:1131 loss:0.1760590299963951
+now start to train
+epoch:1132 loss:0.1756066083908081
+now start to train
+epoch:1133 loss:0.18049976726373038
+now start to train
+epoch:1134 loss:0.18332120527823767
+now start to train
+epoch:1135 loss:0.18066769341627756
+now start to train
+epoch:1136 loss:0.18312026311953863
+now start to train
+epoch:1137 loss:0.1903603052099546
+now start to train
+epoch:1138 loss:0.2098042294383049
+now start to train
+epoch:1139 loss:0.2560069188475609
+now start to train
+epoch:1140 loss:0.21768281608819962
+now start to train
+epoch:1141 loss:0.2205539494752884
+now start to train
+epoch:1142 loss:0.2148895561695099
+now start to train
+epoch:1143 loss:0.21367051949103674
+now start to train
+epoch:1144 loss:0.20701781660318375
+now start to train
+epoch:1145 loss:0.18912527710199356
+now start to train
+epoch:1146 loss:0.18730243543783823
+now start to train
+epoch:1147 loss:0.18107515076796213
+now start to train
+epoch:1148 loss:0.18231579413016638
+now start to train
+epoch:1149 loss:0.18267670770486197
+now start to train
+epoch:1150 loss:0.18398527801036835
+now start to train
+epoch:1151 loss:0.18209397544463476
+now start to train
+epoch:1152 loss:0.17710722237825394
+now start to train
+epoch:1153 loss:0.18361645936965942
+now start to train
+epoch:1154 loss:0.19316680232683817
+now start to train
+epoch:1155 loss:0.18633821358283362
+now start to train
+epoch:1156 loss:0.18553780019283295
+now start to train
+epoch:1157 loss:0.19079880664745966
+now start to train
+epoch:1158 loss:0.19685585548480353
+now start to train
+epoch:1159 loss:0.19429965317249298
+now start to train
+epoch:1160 loss:0.19995672752459845
+now start to train
+epoch:1161 loss:0.2026965245604515
+now start to train
+epoch:1162 loss:0.20513126254081726
+now start to train
+epoch:1163 loss:0.19561520467201868
+now start to train
+epoch:1164 loss:0.18840020398298898
+now start to train
+epoch:1165 loss:0.1842221568028132
+now start to train
+epoch:1166 loss:0.19424458841482797
+now start to train
+epoch:1167 loss:0.19047373036543527
+now start to train
+epoch:1168 loss:0.18890698750813803
+now start to train
+epoch:1169 loss:0.18657432993253073
+now start to train
+epoch:1170 loss:0.18197913219531378
+now start to train
+epoch:1171 loss:0.18294226378202438
+now start to train
+epoch:1172 loss:0.1800526256362597
+now start to train
+epoch:1173 loss:0.1868797317147255
+now start to train
+epoch:1174 loss:0.18267199148734412
+now start to train
+epoch:1175 loss:0.18303261200586954
+now start to train
+epoch:1176 loss:0.17343851427237192
+now start to train
+epoch:1177 loss:0.17714397112528482
+now start to train
+epoch:1178 loss:0.1823729152480761
+now start to train
+epoch:1179 loss:0.17338788509368896
+now start to train
+epoch:1180 loss:0.17097367842992148
+now start to train
+epoch:1181 loss:0.1803857460618019
+now start to train
+epoch:1182 loss:0.18776686986287436
+now start to train
+epoch:1183 loss:0.19135801245768866
+now start to train
+epoch:1184 loss:0.1850409209728241
+now start to train
+epoch:1185 loss:0.18190338710943857
+now start to train
+epoch:1186 loss:0.18427272140979767
+now start to train
+epoch:1187 loss:0.18783424546321234
+now start to train
+epoch:1188 loss:0.18435644855101904
+now start to train
+epoch:1189 loss:0.1767189179857572
+now start to train
+epoch:1190 loss:0.17250927537679672
+now start to train
+epoch:1191 loss:0.17168284207582474
+now start to train
+epoch:1192 loss:0.17727906753619513
+now start to train
+epoch:1193 loss:0.20242642859617868
+now start to train
+epoch:1194 loss:0.199242373307546
+now start to train
+epoch:1195 loss:0.212400421500206
+now start to train
+epoch:1196 loss:0.2005782574415207
+now start to train
+epoch:1197 loss:0.20077873269716898
+now start to train
+epoch:1198 loss:0.18866500010093054
+now start to train
+epoch:1199 loss:0.1829480528831482
+now start to train
+epoch:1200 loss:0.18026570479075113
+now start to train
+epoch:1201 loss:0.1810633366306623
+now start to train
+epoch:1202 loss:0.17715855439503989
+now start to train
+epoch:1203 loss:0.16936643670002619
+now start to train
+epoch:1204 loss:0.16699309895435968
+now start to train
+epoch:1205 loss:0.16662413626909256
+now start to train
+epoch:1206 loss:0.17153343309958777
+now start to train
+epoch:1207 loss:0.17681103944778442
+now start to train
+epoch:1208 loss:0.16667683174212775
+now start to train
+epoch:1209 loss:0.16866639256477356
+now start to train
+epoch:1210 loss:0.18765163918336233
+now start to train
+epoch:1211 loss:0.19739146530628204
+now start to train
+epoch:1212 loss:0.19507020463546118
+now start to train
+epoch:1213 loss:0.19219244023164114
+now start to train
+epoch:1214 loss:0.20523774127165476
+now start to train
+epoch:1215 loss:0.21035544077555338
+now start to train
+epoch:1216 loss:0.21298527220884958
+now start to train
+epoch:1217 loss:0.22007950643698374
+now start to train
+epoch:1218 loss:0.21956714739402136
+now start to train
+epoch:1219 loss:0.20747664074103037
+now start to train
+epoch:1220 loss:0.18615843604008356
+now start to train
+epoch:1221 loss:0.17839176952838898
+now start to train
+epoch:1222 loss:0.16967103630304337
+now start to train
+epoch:1223 loss:0.16457427044709524
+now start to train
+epoch:1224 loss:0.1656650428970655
+now start to train
+epoch:1225 loss:0.16853685801227888
+now start to train
+epoch:1226 loss:0.17055650552113852
+now start to train
+epoch:1227 loss:0.171356367568175
+now start to train
+epoch:1228 loss:0.17314105729262033
+now start to train
+epoch:1229 loss:0.1878488982717196
+now start to train
+epoch:1230 loss:0.18279301126797995
+now start to train
+epoch:1231 loss:0.18137414505084357
+now start to train
+epoch:1232 loss:0.16581528882185617
+now start to train
+epoch:1233 loss:0.16706127673387527
+now start to train
+epoch:1234 loss:0.16242810090382895
+now start to train
+epoch:1235 loss:0.1591373234987259
+now start to train
+epoch:1236 loss:0.15425004810094833
+now start to train
+epoch:1237 loss:0.15379825482765833
+now start to train
+epoch:1238 loss:0.16891153156757355
+now start to train
+epoch:1239 loss:0.17601729681094488
+now start to train
+epoch:1240 loss:0.16688881566127142
+now start to train
+epoch:1241 loss:0.16549590478340784
+now start to train
+epoch:1242 loss:0.15998926758766174
+now start to train
+epoch:1243 loss:0.15387882788976034
+now start to train
+epoch:1244 loss:0.15571383759379387
+now start to train
+epoch:1245 loss:0.15828035026788712
+now start to train
+epoch:1246 loss:0.16666352997223535
+now start to train
+epoch:1247 loss:0.17782017091910043
+now start to train
+epoch:1248 loss:0.17744589100281397
+now start to train
+epoch:1249 loss:0.16393661995728812
+now start to train
+epoch:1250 loss:0.1582439343134562
+now start to train
+epoch:1251 loss:0.1566561907529831
+now start to train
+epoch:1252 loss:0.15963589400053024
+now start to train
+epoch:1253 loss:0.15564908708135286
+now start to train
+epoch:1254 loss:0.16589868068695068
+now start to train
+epoch:1255 loss:0.18418466051419577
+now start to train
+epoch:1256 loss:0.17880659302075705
+now start to train
+epoch:1257 loss:0.17316663265228271
+now start to train
+epoch:1258 loss:0.18540781488021216
+now start to train
+epoch:1259 loss:0.19247927019993463
+now start to train
+epoch:1260 loss:0.1934808318813642
+now start to train
+epoch:1261 loss:0.20332998285690942
+now start to train
+epoch:1262 loss:0.20798101524511972
+now start to train
+epoch:1263 loss:0.1860745201508204
+now start to train
+epoch:1264 loss:0.1749799152215322
+now start to train
+epoch:1265 loss:0.16989628225564957
+now start to train
+epoch:1266 loss:0.1687808707356453
+now start to train
+epoch:1267 loss:0.17083794126907983
+now start to train
+epoch:1268 loss:0.1684955134987831
+now start to train
+epoch:1269 loss:0.17653840531905493
+now start to train
+epoch:1270 loss:0.1816058208545049
+now start to train
+epoch:1271 loss:0.18681546797355017
+now start to train
+epoch:1272 loss:0.18211251000563303
+now start to train
+epoch:1273 loss:0.1963848148783048
+now start to train
+epoch:1274 loss:0.18699191759030023
+now start to train
+epoch:1275 loss:0.18010066946347555
+now start to train
+epoch:1276 loss:0.1731720690925916
+now start to train
+epoch:1277 loss:0.16231577595074972
+now start to train
+epoch:1278 loss:0.15419710675875345
+now start to train
+epoch:1279 loss:0.15987451622883478
+now start to train
+epoch:1280 loss:0.16260448346535364
+now start to train
+epoch:1281 loss:0.1532794882853826
+now start to train
+epoch:1282 loss:0.1540556699037552
+now start to train
+epoch:1283 loss:0.15290452788273493
+now start to train
+epoch:1284 loss:0.15183419237534204
+now start to train
+epoch:1285 loss:0.14868860195080438
+now start to train
+epoch:1286 loss:0.1498414327700933
+now start to train
+epoch:1287 loss:0.14614805951714516
+now start to train
+epoch:1288 loss:0.14902934928735098
+now start to train
+epoch:1289 loss:0.15210512404640517
+now start to train
+epoch:1290 loss:0.15134038776159286
+now start to train
+epoch:1291 loss:0.1609430561463038
+now start to train
+epoch:1292 loss:0.16180327534675598
+now start to train
+epoch:1293 loss:0.15341104194521904
+now start to train
+epoch:1294 loss:0.15445451935132345
+now start to train
+epoch:1295 loss:0.16616637508074442
+now start to train
+epoch:1296 loss:0.16895965735117593
+now start to train
+epoch:1297 loss:0.17307918518781662
+now start to train
+epoch:1298 loss:0.17767138530810675
+now start to train
+epoch:1299 loss:0.17793731888135275
+now start to train
+epoch:1300 loss:0.16396484151482582
+now start to train
+epoch:1301 loss:0.16597379992405573
+now start to train
+epoch:1302 loss:0.15242843826611838
+now start to train
+epoch:1303 loss:0.1477691133817037
+now start to train
+epoch:1304 loss:0.15120657781759897
+now start to train
+epoch:1305 loss:0.15406118830045065
+now start to train
+epoch:1306 loss:0.16797934720913568
+now start to train
+epoch:1307 loss:0.16539448499679565
+now start to train
+epoch:1308 loss:0.1629122073451678
+now start to train
+epoch:1309 loss:0.15182706713676453
+now start to train
+epoch:1310 loss:0.15024641901254654
+now start to train
+epoch:1311 loss:0.14624994496504465
+now start to train
+epoch:1312 loss:0.14495753621061644
+now start to train
+epoch:1313 loss:0.14878291885058084
+now start to train
+epoch:1314 loss:0.15320478876431784
+now start to train
+epoch:1315 loss:0.15011360247929892
+now start to train
+epoch:1316 loss:0.1448417752981186
+now start to train
+epoch:1317 loss:0.14709979544083276
+now start to train
+epoch:1318 loss:0.14516601711511612
+now start to train
+epoch:1319 loss:0.1424929921825727
+now start to train
+epoch:1320 loss:0.1494370698928833
+now start to train
+epoch:1321 loss:0.15534629921118417
+now start to train
+epoch:1322 loss:0.15175173679987589
+now start to train
+epoch:1323 loss:0.14857346564531326
+now start to train
+epoch:1324 loss:0.15048489967981973
+now start to train
+epoch:1325 loss:0.15113966663678488
+now start to train
+epoch:1326 loss:0.14534160991509756
+now start to train
+epoch:1327 loss:0.14061522235472998
+now start to train
+epoch:1328 loss:0.13794046392043433
+now start to train
+epoch:1329 loss:0.1393565759062767
+now start to train
+epoch:1330 loss:0.13909533868233362
+now start to train
+epoch:1331 loss:0.15044239163398743
+now start to train
+epoch:1332 loss:0.1535677288969358
+now start to train
+epoch:1333 loss:0.16330011934041977
+now start to train
+epoch:1334 loss:0.16569652408361435
+now start to train
+epoch:1335 loss:0.16228083272775015
+now start to train
+epoch:1336 loss:0.1553195764621099
+now start to train
+epoch:1337 loss:0.15025092164675394
+now start to train
+epoch:1338 loss:0.1463640754421552
+now start to train
+epoch:1339 loss:0.1444534088174502
+now start to train
+epoch:1340 loss:0.14173380533854166
+now start to train
+epoch:1341 loss:0.1459425538778305
+now start to train
+epoch:1342 loss:0.15667850524187088
+now start to train
+epoch:1343 loss:0.16456067065397897
+now start to train
+epoch:1344 loss:0.15221627553304037
+now start to train
+epoch:1345 loss:0.14777896056572595
+now start to train
+epoch:1346 loss:0.1469359720746676
+now start to train
+epoch:1347 loss:0.14808900157610574
+now start to train
+epoch:1348 loss:0.1431431919336319
+now start to train
+epoch:1349 loss:0.14548288534084955
+now start to train
+epoch:1350 loss:0.15259690582752228
+now start to train
+epoch:1351 loss:0.16062720865011215
+now start to train
+epoch:1352 loss:0.15120015541712442
+now start to train
+epoch:1353 loss:0.15000509470701218
+now start to train
+epoch:1354 loss:0.14101495097080866
+now start to train
+epoch:1355 loss:0.14584072679281235
+now start to train
+epoch:1356 loss:0.14451688279708227
+now start to train
+epoch:1357 loss:0.14899622400601706
+now start to train
+epoch:1358 loss:0.1627918854355812
+now start to train
+epoch:1359 loss:0.1717099075516065
+now start to train
+epoch:1360 loss:0.173208586871624
+now start to train
+epoch:1361 loss:0.17138401915629706
+now start to train
+epoch:1362 loss:0.16673590491215387
+now start to train
+epoch:1363 loss:0.1585729867219925
+now start to train
+epoch:1364 loss:0.15599810083707175
+now start to train
+epoch:1365 loss:0.1561345880230268
+now start to train
+epoch:1366 loss:0.14809704820315042
+now start to train
+epoch:1367 loss:0.1399589106440544
+now start to train
+epoch:1368 loss:0.1447253872950872
+now start to train
+epoch:1369 loss:0.1581579272945722
+now start to train
+epoch:1370 loss:0.15887012829383215
+now start to train
+epoch:1371 loss:0.14520654206474623
+now start to train
+epoch:1372 loss:0.14496869097153345
+now start to train
+epoch:1373 loss:0.15714847420652708
+now start to train
+epoch:1374 loss:0.1481266530851523
+now start to train
+epoch:1375 loss:0.14413062234719595
+now start to train
+epoch:1376 loss:0.14670593043168387
+now start to train
+epoch:1377 loss:0.13997437804937363
+now start to train
+epoch:1378 loss:0.14812547465165457
+now start to train
+epoch:1379 loss:0.1501992866396904
+now start to train
+epoch:1380 loss:0.15397090961535773
+now start to train
+epoch:1381 loss:0.14414885640144348
+now start to train
+epoch:1382 loss:0.13916400571664175
+now start to train
+epoch:1383 loss:0.13755983114242554
+now start to train
+epoch:1384 loss:0.13650854180256525
+now start to train
+epoch:1385 loss:0.13488895694414774
+now start to train
+epoch:1386 loss:0.13703238715728125
+now start to train
+epoch:1387 loss:0.1389531046152115
+now start to train
+epoch:1388 loss:0.14045878251393637
+now start to train
+epoch:1389 loss:0.14798596998055777
+now start to train
+epoch:1390 loss:0.14563128103812537
+now start to train
+epoch:1391 loss:0.14152482400337854
+now start to train
+epoch:1392 loss:0.14033493647972742
+now start to train
+epoch:1393 loss:0.1447108450035254
+now start to train
+epoch:1394 loss:0.16579653322696686
+now start to train
+epoch:1395 loss:0.1746439958612124
+now start to train
+epoch:1396 loss:0.15569598972797394
+now start to train
+epoch:1397 loss:0.15115477393070856
+now start to train
+epoch:1398 loss:0.15743825336297354
+now start to train
+epoch:1399 loss:0.17514655739068985
+now start to train
+epoch:1400 loss:0.16068501522143683
+now start to train
+epoch:1401 loss:0.15820308526357016
+now start to train
+epoch:1402 loss:0.14733949055274329
+now start to train
+epoch:1403 loss:0.14040211836496988
+now start to train
+epoch:1404 loss:0.14767728497584662
+now start to train
+epoch:1405 loss:0.15579640616973242
+now start to train
+epoch:1406 loss:0.15018988152345022
+now start to train
+epoch:1407 loss:0.1437859187523524
+now start to train
+epoch:1408 loss:0.14386845380067825
+now start to train
+epoch:1409 loss:0.13825478653113046
+now start to train
+epoch:1410 loss:0.13353077694773674
+now start to train
+epoch:1411 loss:0.1338942920168241
+now start to train
+epoch:1412 loss:0.1464015245437622
+now start to train
+epoch:1413 loss:0.151508000989755
+now start to train
+epoch:1414 loss:0.15917649865150452
+now start to train
+epoch:1415 loss:0.14617048700650534
+now start to train
+epoch:1416 loss:0.1413338097433249
+now start to train
+epoch:1417 loss:0.1351819857954979
+now start to train
+epoch:1418 loss:0.13102890675266585
+now start to train
+epoch:1419 loss:0.132201520105203
+now start to train
+epoch:1420 loss:0.1295800730586052
+now start to train
+epoch:1421 loss:0.13701657205820084
+now start to train
+epoch:1422 loss:0.1492398182551066
+now start to train
+epoch:1423 loss:0.14226345221201578
+now start to train
+epoch:1424 loss:0.13842166463534036
+now start to train
+epoch:1425 loss:0.14239014436801276
+now start to train
+epoch:1426 loss:0.13538827498753866
+now start to train
+epoch:1427 loss:0.13286529233058295
+now start to train
+epoch:1428 loss:0.1344449445605278
+now start to train
+epoch:1429 loss:0.13745044420162836
+now start to train
+epoch:1430 loss:0.14040513833363852
+now start to train
+epoch:1431 loss:0.15543082853158316
+now start to train
+epoch:1432 loss:0.14381144444147745
+now start to train
+epoch:1433 loss:0.14412989964087805
+now start to train
+epoch:1434 loss:0.13896889487902322
+now start to train
+epoch:1435 loss:0.14842611302932104
+now start to train
+epoch:1436 loss:0.1467904175321261
+now start to train
+epoch:1437 loss:0.13648413866758347
+now start to train
+epoch:1438 loss:0.1369340382516384
+now start to train
+epoch:1439 loss:0.13893514623244604
+now start to train
+epoch:1440 loss:0.1336949976782004
+now start to train
+epoch:1441 loss:0.1326088768740495
+now start to train
+epoch:1442 loss:0.14597841848929724
+now start to train
+epoch:1443 loss:0.14135928079485893
+now start to train
+epoch:1444 loss:0.14333087826768556
+now start to train
+epoch:1445 loss:0.14460772772630057
+now start to train
+epoch:1446 loss:0.14101750403642654
+now start to train
+epoch:1447 loss:0.13799923906723657
+now start to train
+epoch:1448 loss:0.13429313773910204
+now start to train
+epoch:1449 loss:0.1513919693728288
+now start to train
+epoch:1450 loss:0.15829238295555115
+now start to train
+epoch:1451 loss:0.15018754452466965
+now start to train
+epoch:1452 loss:0.13543969641129175
+now start to train
+epoch:1453 loss:0.13338372111320496
+now start to train
+epoch:1454 loss:0.12786956131458282
+now start to train
+epoch:1455 loss:0.12796016534169516
+now start to train
+epoch:1456 loss:0.12429579471548398
+now start to train
+epoch:1457 loss:0.13237112512191138
+now start to train
+epoch:1458 loss:0.13985804840922356
+now start to train
+epoch:1459 loss:0.13693876440326372
+now start to train
+epoch:1460 loss:0.13686950132250786
+now start to train
+epoch:1461 loss:0.13511314491430917
+now start to train
+epoch:1462 loss:0.13935154428084692
+now start to train
+epoch:1463 loss:0.1373787373304367
+now start to train
+epoch:1464 loss:0.13646987080574036
+now start to train
+epoch:1465 loss:0.13077284395694733
+now start to train
+epoch:1466 loss:0.12708800037701926
+now start to train
+epoch:1467 loss:0.1247820941110452
+now start to train
+epoch:1468 loss:0.1309424266219139
+now start to train
+epoch:1469 loss:0.12995943054556847
+now start to train
+epoch:1470 loss:0.13591868927081427
+now start to train
+epoch:1471 loss:0.1303204024831454
+now start to train
+epoch:1472 loss:0.1347872739036878
+now start to train
+epoch:1473 loss:0.12790931637088457
+now start to train
+epoch:1474 loss:0.12299128373463948
+now start to train
+epoch:1475 loss:0.12357851242025693
+now start to train
+epoch:1476 loss:0.12293227637807529
+now start to train
+epoch:1477 loss:0.12387096633513768
+now start to train
+epoch:1478 loss:0.12462362026174863
+now start to train
+epoch:1479 loss:0.12252015496293704
+now start to train
+epoch:1480 loss:0.11978119735916455
+now start to train
+epoch:1481 loss:0.11658976723750432
+now start to train
+epoch:1482 loss:0.12193027759591739
+now start to train
+epoch:1483 loss:0.12321801483631134
+now start to train
+epoch:1484 loss:0.12591207275787988
+now start to train
+epoch:1485 loss:0.12851337095101675
+now start to train
+epoch:1486 loss:0.12055985629558563
+now start to train
+epoch:1487 loss:0.11539981762568156
+now start to train
+epoch:1488 loss:0.11783513675133388
+now start to train
+epoch:1489 loss:0.11837102472782135
+now start to train
+epoch:1490 loss:0.12065883601705234
+now start to train
+epoch:1491 loss:0.12345489859580994
+now start to train
+epoch:1492 loss:0.12225252638260524
+now start to train
+epoch:1493 loss:0.12788216521342596
+now start to train
+epoch:1494 loss:0.12388604258497556
+now start to train
+epoch:1495 loss:0.12653313825527826
+now start to train
+epoch:1496 loss:0.12124667192498843
+now start to train
+epoch:1497 loss:0.12065381556749344
+now start to train
+epoch:1498 loss:0.1245226760705312
+now start to train
+epoch:1499 loss:0.12244060883919398
+now start to train
+epoch:1500 loss:0.12052805225054423
+now start to train
+epoch:1501 loss:0.11658849567174911
+now start to train
+epoch:1502 loss:0.12182917321721713
+now start to train
+epoch:1503 loss:0.12022331357002258
+now start to train
+epoch:1504 loss:0.12094698225458463
+now start to train
+epoch:1505 loss:0.11802027622858684
+now start to train
+epoch:1506 loss:0.11321206639210384
+now start to train
+epoch:1507 loss:0.11712818220257759
+now start to train
+epoch:1508 loss:0.1320614442229271
+now start to train
+epoch:1509 loss:0.13764052093029022
+now start to train
+epoch:1510 loss:0.1281171590089798
+now start to train
+epoch:1511 loss:0.12488129983345668
+now start to train
+epoch:1512 loss:0.16793342183033624
+now start to train
+epoch:1513 loss:0.16920154293378195
+now start to train
+epoch:1514 loss:0.15573241810003915
+now start to train
+epoch:1515 loss:0.1446362535158793
+now start to train
+epoch:1516 loss:0.14549285918474197
+now start to train
+epoch:1517 loss:0.14532152314980826
+now start to train
+epoch:1518 loss:0.13002981493870416
+now start to train
+epoch:1519 loss:0.12514030809203783
+now start to train
+epoch:1520 loss:0.1321944830318292
+now start to train
+epoch:1521 loss:0.14462075382471085
+now start to train
+epoch:1522 loss:0.13482295100887617
+now start to train
+epoch:1523 loss:0.13324339439471564
+now start to train
+epoch:1524 loss:0.1314376319448153
+now start to train
+epoch:1525 loss:0.12914828956127167
+now start to train
+epoch:1526 loss:0.1256507709622383
+now start to train
+epoch:1527 loss:0.11934485038121541
+now start to train
+epoch:1528 loss:0.11852221315105756
+now start to train
+epoch:1529 loss:0.11693161353468895
+now start to train
+epoch:1530 loss:0.12122020001212756
+now start to train
+epoch:1531 loss:0.12252215296030045
+now start to train
+epoch:1532 loss:0.13052212943633398
+now start to train
+epoch:1533 loss:0.13815432538588843
+now start to train
+epoch:1534 loss:0.12201391036311786
+now start to train
+epoch:1535 loss:0.11757731934388478
+now start to train
+epoch:1536 loss:0.12056299299001694
+now start to train
+epoch:1537 loss:0.11506276081005733
+now start to train
+epoch:1538 loss:0.11262870828310649
+now start to train
+epoch:1539 loss:0.1154966230193774
+now start to train
+epoch:1540 loss:0.11412033811211586
+now start to train
+epoch:1541 loss:0.11235753695170085
+now start to train
+epoch:1542 loss:0.11322280019521713
+now start to train
+epoch:1543 loss:0.1165727029244105
+now start to train
+epoch:1544 loss:0.1214616410434246
+now start to train
+epoch:1545 loss:0.12224463745951653
+now start to train
+epoch:1546 loss:0.11873537550369899
+now start to train
+epoch:1547 loss:0.12949819738666216
+now start to train
+epoch:1548 loss:0.1279931217432022
+now start to train
+epoch:1549 loss:0.11956964805722237
+now start to train
+epoch:1550 loss:0.1140219122171402
+now start to train
+epoch:1551 loss:0.1106345405181249
+now start to train
+epoch:1552 loss:0.10935952141880989
+now start to train
+epoch:1553 loss:0.10908101747433345
+now start to train
+epoch:1554 loss:0.11502974480390549
+now start to train
+epoch:1555 loss:0.11254390080769856
+now start to train
+epoch:1556 loss:0.12242058788736661
+now start to train
+epoch:1557 loss:0.1262538693845272
+now start to train
+epoch:1558 loss:0.13088289524118105
+now start to train
+epoch:1559 loss:0.12340788170695305
+now start to train
+epoch:1560 loss:0.12637398391962051
+now start to train
+epoch:1561 loss:0.131905614087979
+now start to train
+epoch:1562 loss:0.1324282598992189
+now start to train
+epoch:1563 loss:0.14082633207241693
+now start to train
+epoch:1564 loss:0.13326935966809592
+now start to train
+epoch:1565 loss:0.13017144550879797
+now start to train
+epoch:1566 loss:0.11818470681707065
+now start to train
+epoch:1567 loss:0.12222899124026299
+now start to train
+epoch:1568 loss:0.12243324518203735
+now start to train
+epoch:1569 loss:0.13343859712282816
+now start to train
+epoch:1570 loss:0.1249365968008836
+now start to train
+epoch:1571 loss:0.12900112320979437
+now start to train
+epoch:1572 loss:0.11880517254273097
+now start to train
+epoch:1573 loss:0.11933555950721104
+now start to train
+epoch:1574 loss:0.11484769855936368
+now start to train
+epoch:1575 loss:0.1128818579018116
+now start to train
+epoch:1576 loss:0.11297683293620746
+now start to train
+epoch:1577 loss:0.1129036620259285
+now start to train
+epoch:1578 loss:0.1110031008720398
+now start to train
+epoch:1579 loss:0.11191371207435925
+now start to train
+epoch:1580 loss:0.11040209606289864
+now start to train
+epoch:1581 loss:0.10934646303455035
+now start to train
+epoch:1582 loss:0.10892661785085996
+now start to train
+epoch:1583 loss:0.10571179911494255
+now start to train
+epoch:1584 loss:0.10863039394219716
+now start to train
+epoch:1585 loss:0.10795664911468823
+now start to train
+epoch:1586 loss:0.11155871798594792
+now start to train
+epoch:1587 loss:0.11090528344114621
+now start to train
+epoch:1588 loss:0.11997392401099205
+now start to train
+epoch:1589 loss:0.12453426544864972
+now start to train
+epoch:1590 loss:0.12717580795288086
+now start to train
+epoch:1591 loss:0.12900071342786154
+now start to train
+epoch:1592 loss:0.11802530164519946
+now start to train
+epoch:1593 loss:0.11850771556297938
+now start to train
+epoch:1594 loss:0.12056292096773784
+now start to train
+epoch:1595 loss:0.1274045743048191
+now start to train
+epoch:1596 loss:0.12286511187752087
+now start to train
+epoch:1597 loss:0.12256524090965588
+now start to train
+epoch:1598 loss:0.1211873044570287
+now start to train
+epoch:1599 loss:0.12135138486822446
+now start to train
+epoch:1600 loss:0.11544553190469742
+now start to train
+epoch:1601 loss:0.1284122442205747
+now start to train
+epoch:1602 loss:0.12495982522765796
+now start to train
+epoch:1603 loss:0.11878663922349612
+now start to train
+epoch:1604 loss:0.11263753349582355
+now start to train
+epoch:1605 loss:0.11136921991904576
+now start to train
+epoch:1606 loss:0.11183495074510574
+now start to train
+epoch:1607 loss:0.11240615074833234
+now start to train
+epoch:1608 loss:0.11202947050333023
+now start to train
+epoch:1609 loss:0.12056401744484901
+now start to train
+epoch:1610 loss:0.14506923904021582
+now start to train
+epoch:1611 loss:0.1380320725341638
+now start to train
+epoch:1612 loss:0.13134856273730597
+now start to train
+epoch:1613 loss:0.12253726770480473
+now start to train
+epoch:1614 loss:0.12160768608252208
+now start to train
+epoch:1615 loss:0.12290123477578163
+now start to train
+epoch:1616 loss:0.1149775559703509
+now start to train
+epoch:1617 loss:0.1121728705863158
+now start to train
+epoch:1618 loss:0.11074285209178925
+now start to train
+epoch:1619 loss:0.1215783841907978
+now start to train
+epoch:1620 loss:0.12877596418062845
+now start to train
+epoch:1621 loss:0.12453226496775945
+now start to train
+epoch:1622 loss:0.11953642591834068
+now start to train
+epoch:1623 loss:0.11678298562765121
+now start to train
+epoch:1624 loss:0.11115374912818272
+now start to train
+epoch:1625 loss:0.10651667540272076
+now start to train
+epoch:1626 loss:0.10774305959542592
+now start to train
+epoch:1627 loss:0.10396735245982806
+now start to train
+epoch:1628 loss:0.10899585485458374
+now start to train
+epoch:1629 loss:0.10668504983186722
+now start to train
+epoch:1630 loss:0.10705661525328954
+now start to train
+epoch:1631 loss:0.10966868946949641
+now start to train
+epoch:1632 loss:0.10404487202564876
+now start to train
+epoch:1633 loss:0.10924497495094936
+now start to train
+epoch:1634 loss:0.11258079732457797
+now start to train
+epoch:1635 loss:0.11249880368510883
+now start to train
+epoch:1636 loss:0.11379846433798473
+now start to train
+epoch:1637 loss:0.11774826794862747
+now start to train
+epoch:1638 loss:0.12471455459793408
+now start to train
+epoch:1639 loss:0.1165859450896581
+now start to train
+epoch:1640 loss:0.11555144439140956
+now start to train
+epoch:1641 loss:0.12137756869196892
+now start to train
+epoch:1642 loss:0.11560910195112228
+now start to train
+epoch:1643 loss:0.11072184766332309
+now start to train
+epoch:1644 loss:0.10757691909869511
+now start to train
+epoch:1645 loss:0.10696541269620259
+now start to train
+epoch:1646 loss:0.10672412688533466
+now start to train
+epoch:1647 loss:0.10169420763850212
+now start to train
+epoch:1648 loss:0.09766708811124165
+now start to train
+epoch:1649 loss:0.09804632390538852
+now start to train
+epoch:1650 loss:0.10373094181219737
+now start to train
+epoch:1651 loss:0.11548557877540588
+now start to train
+epoch:1652 loss:0.1255484720071157
+now start to train
+epoch:1653 loss:0.12543882429599762
+now start to train
+epoch:1654 loss:0.12944509088993073
+now start to train
+epoch:1655 loss:0.15702963123718897
+now start to train
+epoch:1656 loss:0.13832155739267668
+now start to train
+epoch:1657 loss:0.12784167751669884
+now start to train
+epoch:1658 loss:0.12463444968064626
+now start to train
+epoch:1659 loss:0.1304032082358996
+now start to train
+epoch:1660 loss:0.13000401109457016
+now start to train
+epoch:1661 loss:0.15176041424274445
+now start to train
+epoch:1662 loss:0.15200591584046683
+now start to train
+epoch:1663 loss:0.16841575254996619
+now start to train
+epoch:1664 loss:0.17205624282360077
+now start to train
+epoch:1665 loss:0.14722507322827974
+now start to train
+epoch:1666 loss:0.1354033574461937
+now start to train
+epoch:1667 loss:0.12663408741354942
+now start to train
+epoch:1668 loss:0.13417702168226242
+now start to train
+epoch:1669 loss:0.1287393569946289
+now start to train
+epoch:1670 loss:0.12377988919615746
+now start to train
+epoch:1671 loss:0.1170277272661527
+now start to train
+epoch:1672 loss:0.12136566638946533
+now start to train
+epoch:1673 loss:0.12859645734230676
+now start to train
+epoch:1674 loss:0.13615739966432253
+now start to train
+epoch:1675 loss:0.13053049643834433
+now start to train
+epoch:1676 loss:0.12029759834210078
+now start to train
+epoch:1677 loss:0.11280061428745587
+now start to train
+epoch:1678 loss:0.10914906859397888
+now start to train
+epoch:1679 loss:0.10952773193518321
+now start to train
+epoch:1680 loss:0.10860182096560796
+now start to train
+epoch:1681 loss:0.10797886302073796
+now start to train
+epoch:1682 loss:0.10547046611706416
+now start to train
+epoch:1683 loss:0.10291366651654243
+now start to train
+epoch:1684 loss:0.10225591932733853
+now start to train
+epoch:1685 loss:0.09897246211767197
+now start to train
+epoch:1686 loss:0.09923580661416054
+now start to train
+epoch:1687 loss:0.10200973972678185
+now start to train
+epoch:1688 loss:0.10210715730985005
+now start to train
+epoch:1689 loss:0.10712714244922002
+now start to train
+epoch:1690 loss:0.10945482676227887
+now start to train
+epoch:1691 loss:0.10674229264259338
+now start to train
+epoch:1692 loss:0.111894807467858
+now start to train
+epoch:1693 loss:0.1119798980653286
+now start to train
+epoch:1694 loss:0.10698762784401576
+now start to train
+epoch:1695 loss:0.11108591531713803
+now start to train
+epoch:1696 loss:0.11606739709774654
+now start to train
+epoch:1697 loss:0.11179335415363312
+now start to train
+epoch:1698 loss:0.11785394574205081
+now start to train
+epoch:1699 loss:0.10859600827097893
+now start to train
+epoch:1700 loss:0.10219251116116841
+now start to train
+epoch:1701 loss:0.10356362164020538
+now start to train
+epoch:1702 loss:0.10418551787734032
+now start to train
+epoch:1703 loss:0.1163501354555289
+now start to train
+epoch:1704 loss:0.11448583255211513
+now start to train
+epoch:1705 loss:0.10863898321986198
+now start to train
+epoch:1706 loss:0.10796370233098666
+now start to train
+epoch:1707 loss:0.1067499928176403
+now start to train
+epoch:1708 loss:0.10333164036273956
+now start to train
+epoch:1709 loss:0.10218234732747078
+now start to train
+epoch:1710 loss:0.09763483330607414
+now start to train
+epoch:1711 loss:0.10449652497967084
+now start to train
+epoch:1712 loss:0.10178012028336525
+now start to train
+epoch:1713 loss:0.10056049500902493
+now start to train
+epoch:1714 loss:0.09780748561024666
+now start to train
+epoch:1715 loss:0.09499454374114673
+now start to train
+epoch:1716 loss:0.10223057369391124
+now start to train
+epoch:1717 loss:0.10214120894670486
+now start to train
+epoch:1718 loss:0.09703033044934273
+now start to train
+epoch:1719 loss:0.09579269463817279
+now start to train
+epoch:1720 loss:0.09428606554865837
+now start to train
+epoch:1721 loss:0.09425096462170283
+now start to train
+epoch:1722 loss:0.09397567932804425
+now start to train
+epoch:1723 loss:0.10196407760183017
+now start to train
+epoch:1724 loss:0.10633056859175365
+now start to train
+epoch:1725 loss:0.11278237029910088
+now start to train
+epoch:1726 loss:0.13739130025108656
+now start to train
+epoch:1727 loss:0.13678907975554466
+now start to train
+epoch:1728 loss:0.13147667795419693
+now start to train
+epoch:1729 loss:0.14279251669843993
+now start to train
+epoch:1730 loss:0.14595048129558563
+now start to train
+epoch:1731 loss:0.13247990856568018
+now start to train
+epoch:1732 loss:0.11713457976778348
+now start to train
+epoch:1733 loss:0.10747545212507248
+now start to train
+epoch:1734 loss:0.10079336911439896
+now start to train
+epoch:1735 loss:0.09709980462988217
+now start to train
+epoch:1736 loss:0.09633879239360492
+now start to train
+epoch:1737 loss:0.09509607528646787
+now start to train
+epoch:1738 loss:0.09261985123157501
+now start to train
+epoch:1739 loss:0.09430703520774841
+now start to train
+epoch:1740 loss:0.09536462525526683
+now start to train
+epoch:1741 loss:0.09289190545678139
+now start to train
+epoch:1742 loss:0.09293549259503682
+now start to train
+epoch:1743 loss:0.09377630924185117
+now start to train
+epoch:1744 loss:0.09413153305649757
+now start to train
+epoch:1745 loss:0.09168581292033195
+now start to train
+epoch:1746 loss:0.0915164165198803
+now start to train
+epoch:1747 loss:0.09006991361578305
+now start to train
+epoch:1748 loss:0.09543989350398381
+now start to train
+epoch:1749 loss:0.10506995519002278
+now start to train
+epoch:1750 loss:0.12378411740064621
+now start to train
+epoch:1751 loss:0.11370064814885457
+now start to train
+epoch:1752 loss:0.10271100203196208
+now start to train
+epoch:1753 loss:0.1033798021574815
+now start to train
+epoch:1754 loss:0.11155478407939275
+now start to train
+epoch:1755 loss:0.11801360547542572
+now start to train
+epoch:1756 loss:0.11050938442349434
+now start to train
+epoch:1757 loss:0.11567242319385211
+now start to train
+epoch:1758 loss:0.12899738550186157
+now start to train
+epoch:1759 loss:0.1192931334177653
+now start to train
+epoch:1760 loss:0.1284036710858345
+now start to train
+epoch:1761 loss:0.11308667312065761
+now start to train
+epoch:1762 loss:0.10660574461023013
+now start to train
+epoch:1763 loss:0.10670613249142964
+now start to train
+epoch:1764 loss:0.10589306925733884
+now start to train
+epoch:1765 loss:0.12015187367796898
+now start to train
+epoch:1766 loss:0.11360032980640729
+now start to train
+epoch:1767 loss:0.10865787913401921
+now start to train
+epoch:1768 loss:0.10806237782041232
+now start to train
+epoch:1769 loss:0.10971542944510777
+now start to train
+epoch:1770 loss:0.11056619882583618
+now start to train
+epoch:1771 loss:0.10553569595019023
+now start to train
+epoch:1772 loss:0.10135134930411975
+now start to train
+epoch:1773 loss:0.09934144839644432
+now start to train
+epoch:1774 loss:0.10810475920637448
+now start to train
+epoch:1775 loss:0.12859049811959267
+now start to train
+epoch:1776 loss:0.13985313226779303
+now start to train
+epoch:1777 loss:0.1267108308772246
+now start to train
+epoch:1778 loss:0.12094515189528465
+now start to train
+epoch:1779 loss:0.11613389228781064
+now start to train
+epoch:1780 loss:0.11314021423459053
+now start to train
+epoch:1781 loss:0.10769563416639964
+now start to train
+epoch:1782 loss:0.10334700470169385
+now start to train
+epoch:1783 loss:0.10001324738065402
+now start to train
+epoch:1784 loss:0.10390353575348854
+now start to train
+epoch:1785 loss:0.09520132094621658
+now start to train
+epoch:1786 loss:0.09416823834180832
+now start to train
+epoch:1787 loss:0.093597245713075
+now start to train
+epoch:1788 loss:0.09535313894351323
+now start to train
+epoch:1789 loss:0.08817703649401665
+now start to train
+epoch:1790 loss:0.08916579435269038
+now start to train
+epoch:1791 loss:0.08839065457383792
+now start to train
+epoch:1792 loss:0.1005409446855386
+now start to train
+epoch:1793 loss:0.11434370403488477
+now start to train
+epoch:1794 loss:0.11082591985662778
+now start to train
+epoch:1795 loss:0.09806055078903834
+now start to train
+epoch:1796 loss:0.09774729236960411
+now start to train
+epoch:1797 loss:0.10039645930131276
+now start to train
+epoch:1798 loss:0.10430041079719861
+now start to train
+epoch:1799 loss:0.10308106988668442
+now start to train
+epoch:1800 loss:0.1015038328866164
+now start to train
+epoch:1801 loss:0.09829753388961156
+now start to train
+epoch:1802 loss:0.09320837383468945
+now start to train
+epoch:1803 loss:0.0939853588740031
+now start to train
+epoch:1804 loss:0.09257516513268153
+now start to train
+epoch:1805 loss:0.09111356983582179
+now start to train
+epoch:1806 loss:0.08872908850510915
+now start to train
+epoch:1807 loss:0.09200409303108852
+now start to train
+epoch:1808 loss:0.09102055057883263
+now start to train
+epoch:1809 loss:0.09422634169459343
+now start to train
+epoch:1810 loss:0.09649211168289185
+now start to train
+epoch:1811 loss:0.09404033049941063
+now start to train
+epoch:1812 loss:0.09755915279189746
+now start to train
+epoch:1813 loss:0.08991101384162903
+now start to train
+epoch:1814 loss:0.0872873105108738
+now start to train
+epoch:1815 loss:0.08910587802529335
+now start to train
+epoch:1816 loss:0.09253173942367236
+now start to train
+epoch:1817 loss:0.08909384657939275
+now start to train
+epoch:1818 loss:0.09237746149301529
+now start to train
+epoch:1819 loss:0.09281301125884056
+now start to train
+epoch:1820 loss:0.10525823881228764
+now start to train
+epoch:1821 loss:0.11231518536806107
+now start to train
+epoch:1822 loss:0.1181371808052063
+now start to train
+epoch:1823 loss:0.11415222783883412
+now start to train
+epoch:1824 loss:0.10566447426875432
+now start to train
+epoch:1825 loss:0.09641854713360469
+now start to train
+epoch:1826 loss:0.09124524643023808
+now start to train
+epoch:1827 loss:0.08823784192403157
+now start to train
+epoch:1828 loss:0.08996288478374481
+now start to train
+epoch:1829 loss:0.09168399125337601
+now start to train
+epoch:1830 loss:0.09479160855213802
+now start to train
+epoch:1831 loss:0.08820245539148648
+now start to train
+epoch:1832 loss:0.09279477099577586
+now start to train
+epoch:1833 loss:0.09559891124566396
+now start to train
+epoch:1834 loss:0.09941666076580684
+now start to train
+epoch:1835 loss:0.10641961420575778
+now start to train
+epoch:1836 loss:0.11271337668100993
+now start to train
+epoch:1837 loss:0.10417487223943074
+now start to train
+epoch:1838 loss:0.09895676995317142
+now start to train
+epoch:1839 loss:0.09572684019804001
+now start to train
+epoch:1840 loss:0.09323710078994434
+now start to train
+epoch:1841 loss:0.09802071005105972
+now start to train
+epoch:1842 loss:0.09528004874785741
+now start to train
+epoch:1843 loss:0.09447737286488216
+now start to train
+epoch:1844 loss:0.09227973719437917
+now start to train
+epoch:1845 loss:0.09356087322036426
+now start to train
+epoch:1846 loss:0.09615351508061092
+now start to train
+epoch:1847 loss:0.09861345092455547
+now start to train
+epoch:1848 loss:0.10172627617915471
+now start to train
+epoch:1849 loss:0.09095333392421405
+now start to train
+epoch:1850 loss:0.08748112122217815
+now start to train
+epoch:1851 loss:0.08449496328830719
+now start to train
+epoch:1852 loss:0.084610632310311
+now start to train
+epoch:1853 loss:0.08526245380441348
+now start to train
+epoch:1854 loss:0.08454886203010877
+now start to train
+epoch:1855 loss:0.08568574239810307
+now start to train
+epoch:1856 loss:0.08537929132580757
+now start to train
+epoch:1857 loss:0.08856977770725886
+now start to train
+epoch:1858 loss:0.09425352327525616
+now start to train
+epoch:1859 loss:0.09498248373468716
+now start to train
+epoch:1860 loss:0.08974983046452205
+now start to train
+epoch:1861 loss:0.08814459666609764
+now start to train
+epoch:1862 loss:0.09260621542731921
+now start to train
+epoch:1863 loss:0.08869086081782977
+now start to train
+epoch:1864 loss:0.0848139760394891
+now start to train
+epoch:1865 loss:0.08625761543711026
+now start to train
+epoch:1866 loss:0.09164931376775105
+now start to train
+epoch:1867 loss:0.10626447200775146
+now start to train
+epoch:1868 loss:0.10272037486235301
+now start to train
+epoch:1869 loss:0.10095679759979248
+now start to train
+epoch:1870 loss:0.10978589703639348
+now start to train
+epoch:1871 loss:0.12375019490718842
+now start to train
+epoch:1872 loss:0.12278288727005322
+now start to train
+epoch:1873 loss:0.10466978574792545
+now start to train
+epoch:1874 loss:0.10242344190677007
+now start to train
+epoch:1875 loss:0.09420758734146754
+now start to train
+epoch:1876 loss:0.08901247382164001
+now start to train
+epoch:1877 loss:0.0855170376598835
+now start to train
+epoch:1878 loss:0.08631842955946922
+now start to train
+epoch:1879 loss:0.08267875450352828
+now start to train
+epoch:1880 loss:0.08411808560291927
+now start to train
+epoch:1881 loss:0.0827694075802962
+now start to train
+epoch:1882 loss:0.08065685505668323
+now start to train
+epoch:1883 loss:0.07954710225264232
+now start to train
+epoch:1884 loss:0.08094162121415138
+now start to train
+epoch:1885 loss:0.0826166644692421
+now start to train
+epoch:1886 loss:0.08722939466436704
+now start to train
+epoch:1887 loss:0.0910198725759983
+now start to train
+epoch:1888 loss:0.08517302696903546
+now start to train
+epoch:1889 loss:0.08772411445776622
+now start to train
+epoch:1890 loss:0.0893859105805556
+now start to train
+epoch:1891 loss:0.08259301508466403
+now start to train
+epoch:1892 loss:0.0888309230407079
+now start to train
+epoch:1893 loss:0.09124443555871646
+now start to train
+epoch:1894 loss:0.08837412297725677
+now start to train
+epoch:1895 loss:0.08956754828492801
+now start to train
+epoch:1896 loss:0.09497999648253123
+now start to train
+epoch:1897 loss:0.09780772278706233
+now start to train
+epoch:1898 loss:0.08908701191345851
+now start to train
+epoch:1899 loss:0.08826144660512607
+now start to train
+epoch:1900 loss:0.08807617922623952
+now start to train
+epoch:1901 loss:0.08317518855134647
+now start to train
+epoch:1902 loss:0.08484917009870212
+now start to train
+epoch:1903 loss:0.095144538829724
+now start to train
+epoch:1904 loss:0.09488166620333989
+now start to train
+epoch:1905 loss:0.09376563628514607
+now start to train
+epoch:1906 loss:0.09047224620978038
+now start to train
+epoch:1907 loss:0.08379850164055824
+now start to train
+epoch:1908 loss:0.08509168525536855
+now start to train
+epoch:1909 loss:0.08424884888033073
+now start to train
+epoch:1910 loss:0.08847931151588757
+now start to train
+epoch:1911 loss:0.08330117538571358
+now start to train
+epoch:1912 loss:0.07980189472436905
+now start to train
+epoch:1913 loss:0.07978720590472221
+now start to train
+epoch:1914 loss:0.0793695238729318
+now start to train
+epoch:1915 loss:0.07672797267635663
+now start to train
+epoch:1916 loss:0.07984879364569981
+now start to train
+epoch:1917 loss:0.07765372718373935
+now start to train
+epoch:1918 loss:0.07794048264622688
+now start to train
+epoch:1919 loss:0.0793854221701622
+now start to train
+epoch:1920 loss:0.07929488023122151
+now start to train
+epoch:1921 loss:0.08026496569315593
+now start to train
+epoch:1922 loss:0.07899430642525355
+now start to train
+epoch:1923 loss:0.08413924028476079
+now start to train
+epoch:1924 loss:0.08542671427130699
+now start to train
+epoch:1925 loss:0.08204297721385956
+now start to train
+epoch:1926 loss:0.08085157598058383
+now start to train
+epoch:1927 loss:0.08582369610667229
+now start to train
+epoch:1928 loss:0.07921156535545985
+now start to train
+epoch:1929 loss:0.08291534210244815
+now start to train
+epoch:1930 loss:0.08873474225401878
+now start to train
+epoch:1931 loss:0.08878206710020702
+now start to train
+epoch:1932 loss:0.08813476438323657
+now start to train
+epoch:1933 loss:0.08900033806761105
+now start to train
+epoch:1934 loss:0.09665836642185847
+now start to train
+epoch:1935 loss:0.1000804528594017
+now start to train
+epoch:1936 loss:0.08836725354194641
+now start to train
+epoch:1937 loss:0.08490110312898953
+now start to train
+epoch:1938 loss:0.0860067338993152
+now start to train
+epoch:1939 loss:0.09022755175828934
+now start to train
+epoch:1940 loss:0.0929953729112943
+now start to train
+epoch:1941 loss:0.09686647107203801
+now start to train
+epoch:1942 loss:0.0984625481069088
+now start to train
+epoch:1943 loss:0.10213772083322208
+now start to train
+epoch:1944 loss:0.10999701420466106
+now start to train
+epoch:1945 loss:0.10071870932976405
+now start to train
+epoch:1946 loss:0.09942794342835744
+now start to train
+epoch:1947 loss:0.1058675746122996
+now start to train
+epoch:1948 loss:0.10121998315056165
+now start to train
+epoch:1949 loss:0.09239937116702397
+now start to train
+epoch:1950 loss:0.09025846421718597
+now start to train
+epoch:1951 loss:0.0853590549280246
+now start to train
+epoch:1952 loss:0.08220204586784045
+now start to train
+epoch:1953 loss:0.08590623363852501
+now start to train
+epoch:1954 loss:0.09549119447668393
+now start to train
+epoch:1955 loss:0.09216124191880226
+now start to train
+epoch:1956 loss:0.10265681271751721
+now start to train
+epoch:1957 loss:0.09879150986671448
+now start to train
+epoch:1958 loss:0.09376341973741849
+now start to train
+epoch:1959 loss:0.09264690801501274
+now start to train
+epoch:1960 loss:0.08490200837453206
+now start to train
+epoch:1961 loss:0.08164917180935542
+now start to train
+epoch:1962 loss:0.07979673023025195
+now start to train
+epoch:1963 loss:0.083979282528162
+now start to train
+epoch:1964 loss:0.08273995791872342
+now start to train
+epoch:1965 loss:0.08885309224327405
+now start to train
+epoch:1966 loss:0.08963054915269215
+now start to train
+epoch:1967 loss:0.08515505741039912
+now start to train
+epoch:1968 loss:0.08333367109298706
+now start to train
+epoch:1969 loss:0.08315034955739975
+now start to train
+epoch:1970 loss:0.08360866705576579
+now start to train
+epoch:1971 loss:0.08478432769576709
+now start to train
+epoch:1972 loss:0.08439545581738155
+now start to train
+epoch:1973 loss:0.08532885586222012
+now start to train
+epoch:1974 loss:0.08101982126633327
+now start to train
+epoch:1975 loss:0.08587430541714032
+now start to train
+epoch:1976 loss:0.08747727920611699
+now start to train
+epoch:1977 loss:0.08882557724912961
+now start to train
+epoch:1978 loss:0.09102248772978783
+now start to train
+epoch:1979 loss:0.08933386330803235
+now start to train
+epoch:1980 loss:0.08996686960260074
+now start to train
+epoch:1981 loss:0.08692547927300136
+now start to train
+epoch:1982 loss:0.08601472899317741
+now start to train
+epoch:1983 loss:0.10252463072538376
+now start to train
+epoch:1984 loss:0.09577166537443797
+now start to train
+epoch:1985 loss:0.09106237441301346
+now start to train
+epoch:1986 loss:0.08661955843369167
+now start to train
+epoch:1987 loss:0.09754821782310803
+now start to train
+epoch:1988 loss:0.10259148478507996
+now start to train
+epoch:1989 loss:0.09165855372945468
+now start to train
+epoch:1990 loss:0.09455191344022751
+now start to train
+epoch:1991 loss:0.0914026399453481
+now start to train
+epoch:1992 loss:0.08358360081911087
+now start to train
+epoch:1993 loss:0.08410329123338063
+now start to train
+epoch:1994 loss:0.08027917891740799
+now start to train
+epoch:1995 loss:0.07924552261829376
+now start to train
+epoch:1996 loss:0.081888763854901
+now start to train
+epoch:1997 loss:0.07827647402882576
+now start to train
+epoch:1998 loss:0.08034275596340497
+now start to train
+epoch:1999 loss:0.07504983743031819
+now start to train
+epoch:2000 loss:0.07377050071954727
+now start to train
+epoch:2001 loss:0.07303241391976674
+now start to train
+epoch:2002 loss:0.07631421585877736
+now start to train
+epoch:2003 loss:0.08043662831187248
+now start to train
+epoch:2004 loss:0.0911007175842921
+now start to train
+epoch:2005 loss:0.09095583731929462
+now start to train
+epoch:2006 loss:0.09458894655108452
+now start to train
+epoch:2007 loss:0.10041137660543124
+now start to train
+epoch:2008 loss:0.09609504416584969
+now start to train
+epoch:2009 loss:0.08184453348318736
+now start to train
+epoch:2010 loss:0.0794222926100095
+now start to train
+epoch:2011 loss:0.08357731252908707
+now start to train
+epoch:2012 loss:0.08153377225001653
+now start to train
+epoch:2013 loss:0.08213610326250394
+now start to train
+epoch:2014 loss:0.08318881566325824
+now start to train
+epoch:2015 loss:0.08089195316036542
+now start to train
+epoch:2016 loss:0.0985864909986655
+now start to train
+epoch:2017 loss:0.08803781867027283
+now start to train
+epoch:2018 loss:0.08598881463209788
+now start to train
+epoch:2019 loss:0.08370896925528844
+now start to train
+epoch:2020 loss:0.09159701690077782
+now start to train
+epoch:2021 loss:0.09030592814087868
+now start to train
+epoch:2022 loss:0.08288447931408882
+now start to train
+epoch:2023 loss:0.07755926375587781
+now start to train
+epoch:2024 loss:0.07853396609425545
+now start to train
+epoch:2025 loss:0.08135874817768733
+now start to train
+epoch:2026 loss:0.08018436779578526
+now start to train
+epoch:2027 loss:0.07742745925982793
+now start to train
+epoch:2028 loss:0.08346651494503021
+now start to train
+epoch:2029 loss:0.0835819145043691
+now start to train
+epoch:2030 loss:0.0908202442030112
+now start to train
+epoch:2031 loss:0.09395998468001683
+now start to train
+epoch:2032 loss:0.08765299990773201
+now start to train
+epoch:2033 loss:0.09764439488450687
+now start to train
+epoch:2034 loss:0.09505559007326762
+now start to train
+epoch:2035 loss:0.09100637088219325
+now start to train
+epoch:2036 loss:0.08699113751451175
+now start to train
+epoch:2037 loss:0.09134029100338618
+now start to train
+epoch:2038 loss:0.09995075066884358
+now start to train
+epoch:2039 loss:0.1108172448972861
+now start to train
+epoch:2040 loss:0.09912696853280067
+now start to train
+epoch:2041 loss:0.0932120531797409
+now start to train
+epoch:2042 loss:0.08810326332847278
+now start to train
+epoch:2043 loss:0.07694528624415398
+now start to train
+epoch:2044 loss:0.07830306266744931
+now start to train
+epoch:2045 loss:0.07623261585831642
+now start to train
+epoch:2046 loss:0.07529531481365363
+now start to train
+epoch:2047 loss:0.0744379914055268
+now start to train
+epoch:2048 loss:0.07256290440758069
+now start to train
+epoch:2049 loss:0.07862256094813347
+now start to train
+epoch:2050 loss:0.08786093443632126
+now start to train
+epoch:2051 loss:0.08240339656670888
+now start to train
+epoch:2052 loss:0.08285292983055115
+now start to train
+epoch:2053 loss:0.09126727655529976
+now start to train
+epoch:2054 loss:0.09872813895344734
+now start to train
+epoch:2055 loss:0.10927840322256088
+now start to train
+epoch:2056 loss:0.10778479774792989
+now start to train
+epoch:2057 loss:0.0983229565123717
+now start to train
+epoch:2058 loss:0.09459599480032921
+now start to train
+epoch:2059 loss:0.09280682603518169
+now start to train
+epoch:2060 loss:0.09303763260444005
+now start to train
+epoch:2061 loss:0.09582643831769626
+now start to train
+epoch:2062 loss:0.09482169896364212
+now start to train
+epoch:2063 loss:0.09020031491915385
+now start to train
+epoch:2064 loss:0.08988652999202411
+now start to train
+epoch:2065 loss:0.0935901589691639
+now start to train
+epoch:2066 loss:0.09565678983926773
+now start to train
+epoch:2067 loss:0.09084060912330945
+now start to train
+epoch:2068 loss:0.0829433153072993
+now start to train
+epoch:2069 loss:0.08795309936006863
+now start to train
+epoch:2070 loss:0.08533251409729321
+now start to train
+epoch:2071 loss:0.08705684542655945
+now start to train
+epoch:2072 loss:0.0803081343571345
+now start to train
+epoch:2073 loss:0.07775728901227315
+now start to train
+epoch:2074 loss:0.0813222626845042
+now start to train
+epoch:2075 loss:0.08559806272387505
+now start to train
+epoch:2076 loss:0.07953609898686409
+now start to train
+epoch:2077 loss:0.07440887826184432
+now start to train
+epoch:2078 loss:0.07499038800597191
+now start to train
+epoch:2079 loss:0.07239950262010098
+now start to train
+epoch:2080 loss:0.0788171316186587
+now start to train
+epoch:2081 loss:0.08043555667002995
+now start to train
+epoch:2082 loss:0.07563712758322556
+now start to train
+epoch:2083 loss:0.07313650970657666
+now start to train
+epoch:2084 loss:0.07919903409977753
+now start to train
+epoch:2085 loss:0.07413606842358907
+now start to train
+epoch:2086 loss:0.07764266307155292
+now start to train
+epoch:2087 loss:0.08336412161588669
+now start to train
+epoch:2088 loss:0.1005914310614268
+now start to train
+epoch:2089 loss:0.09804427996277809
+now start to train
+epoch:2090 loss:0.09017245968182881
+now start to train
+epoch:2091 loss:0.0860088939468066
+now start to train
+epoch:2092 loss:0.07859530672430992
+now start to train
+epoch:2093 loss:0.0769612155854702
+now start to train
+epoch:2094 loss:0.07367707788944244
+now start to train
+epoch:2095 loss:0.0742473341524601
+now start to train
+epoch:2096 loss:0.07288804650306702
+now start to train
+epoch:2097 loss:0.0709549884001414
+now start to train
+epoch:2098 loss:0.07048240986963113
+now start to train
+epoch:2099 loss:0.0681052344540755
+now start to train
+epoch:2100 loss:0.06787114155789216
+now start to train
+epoch:2101 loss:0.07287254060308139
+now start to train
+epoch:2102 loss:0.07064217080672582
+now start to train
+epoch:2103 loss:0.0727390522758166
+now start to train
+epoch:2104 loss:0.07241453230381012
+now start to train
+epoch:2105 loss:0.07627726594607036
+now start to train
+epoch:2106 loss:0.07737453778584798
+now start to train
+epoch:2107 loss:0.07928666099905968
+now start to train
+epoch:2108 loss:0.08333294590314229
+now start to train
+epoch:2109 loss:0.08032769958178203
+now start to train
+epoch:2110 loss:0.07910708338022232
+now start to train
+epoch:2111 loss:0.08036545167366664
+now start to train
+epoch:2112 loss:0.08443630859255791
+now start to train
+epoch:2113 loss:0.08453550189733505
+now start to train
+epoch:2114 loss:0.09449892118573189
+now start to train
+epoch:2115 loss:0.08134302993615468
+now start to train
+epoch:2116 loss:0.07717302689949672
+now start to train
+epoch:2117 loss:0.08128778388102849
+now start to train
+epoch:2118 loss:0.07988516117135684
+now start to train
+epoch:2119 loss:0.07472134257356326
+now start to train
+epoch:2120 loss:0.07207085068027179
+now start to train
+epoch:2121 loss:0.07212699887653191
+now start to train
+epoch:2122 loss:0.07003450642029445
+now start to train
+epoch:2123 loss:0.06823927412430446
+now start to train
+epoch:2124 loss:0.07130973786115646
+now start to train
+epoch:2125 loss:0.07684215779105823
+now start to train
+epoch:2126 loss:0.08616139988104503
+now start to train
+epoch:2127 loss:0.07890687510371208
+now start to train
+epoch:2128 loss:0.08083083915213744
+now start to train
+epoch:2129 loss:0.0824884648124377
+now start to train
+epoch:2130 loss:0.08619249860445659
+now start to train
+epoch:2131 loss:0.08762746428449948
+now start to train
+epoch:2132 loss:0.08004831274350484
+now start to train
+epoch:2133 loss:0.08017038553953171
+now start to train
+epoch:2134 loss:0.07416908070445061
+now start to train
+epoch:2135 loss:0.08249864851435025
+now start to train
+epoch:2136 loss:0.08610230932633083
+now start to train
+epoch:2137 loss:0.07840010151267052
+now start to train
+epoch:2138 loss:0.07726944237947464
+now start to train
+epoch:2139 loss:0.07226500784357388
+now start to train
+epoch:2140 loss:0.07600447908043861
+now start to train
+epoch:2141 loss:0.07102922722697258
+now start to train
+epoch:2142 loss:0.07068223816653092
+now start to train
+epoch:2143 loss:0.07443647334973018
+now start to train
+epoch:2144 loss:0.078801395992438
+now start to train
+epoch:2145 loss:0.08102077494064967
+now start to train
+epoch:2146 loss:0.0765279121696949
+now start to train
+epoch:2147 loss:0.07715461154778798
+now start to train
+epoch:2148 loss:0.07989764027297497
+now start to train
+epoch:2149 loss:0.08387448514501254
+now start to train
+epoch:2150 loss:0.08146819472312927
+now start to train
+epoch:2151 loss:0.07653113082051277
+now start to train
+epoch:2152 loss:0.07603049154082935
+now start to train
+epoch:2153 loss:0.07451259468992551
+now start to train
+epoch:2154 loss:0.0700669555614392
+now start to train
+epoch:2155 loss:0.06832318007946014
+now start to train
+epoch:2156 loss:0.0679831908394893
+now start to train
+epoch:2157 loss:0.07146807449559371
+now start to train
+epoch:2158 loss:0.07585483168562253
+now start to train
+epoch:2159 loss:0.07905692731340726
+now start to train
+epoch:2160 loss:0.07080772519111633
+now start to train
+epoch:2161 loss:0.07279198120037715
+now start to train
+epoch:2162 loss:0.06848094798624516
+now start to train
+epoch:2163 loss:0.07028060654799144
+now start to train
+epoch:2164 loss:0.06952506365875404
+now start to train
+epoch:2165 loss:0.06992906890809536
+now start to train
+epoch:2166 loss:0.0757593959569931
+now start to train
+epoch:2167 loss:0.0900616745154063
+now start to train
+epoch:2168 loss:0.08953562751412392
+now start to train
+epoch:2169 loss:0.08998916794856389
+now start to train
+epoch:2170 loss:0.0852062130967776
+now start to train
+epoch:2171 loss:0.08208885851005714
+now start to train
+epoch:2172 loss:0.08054795985420544
+now start to train
+epoch:2173 loss:0.07609834770361583
+now start to train
+epoch:2174 loss:0.07486824815471967
+now start to train
+epoch:2175 loss:0.07416841387748718
+now start to train
+epoch:2176 loss:0.07445297886927922
+now start to train
+epoch:2177 loss:0.0755832592646281
+now start to train
+epoch:2178 loss:0.07395241906245549
+now start to train
+epoch:2179 loss:0.08046959588925044
+now start to train
+epoch:2180 loss:0.0745411788423856
+now start to train
+epoch:2181 loss:0.07242972776293755
+now start to train
+epoch:2182 loss:0.07090878983338673
+now start to train
+epoch:2183 loss:0.08338487520813942
+now start to train
+epoch:2184 loss:0.08665271600087483
+now start to train
+epoch:2185 loss:0.09230653817454974
+now start to train
+epoch:2186 loss:0.0953396384914716
+now start to train
+epoch:2187 loss:0.09004143128792445
+now start to train
+epoch:2188 loss:0.08313812812169392
+now start to train
+epoch:2189 loss:0.09072726219892502
+now start to train
+epoch:2190 loss:0.08467372631033261
+now start to train
+epoch:2191 loss:0.0765001227458318
+now start to train
+epoch:2192 loss:0.0726376473903656
+now start to train
+epoch:2193 loss:0.07489507769544919
+now start to train
+epoch:2194 loss:0.08265849575400352
+now start to train
+epoch:2195 loss:0.0786962000032266
+now start to train
+epoch:2196 loss:0.07536350438992183
+now start to train
+epoch:2197 loss:0.0722084678709507
+now start to train
+epoch:2198 loss:0.07176270770529906
+now start to train
+epoch:2199 loss:0.06977743903795879
+now start to train
+epoch:2200 loss:0.06660603110988934
+now start to train
+epoch:2201 loss:0.06510205939412117
+now start to train
+epoch:2202 loss:0.06686918127040069
+now start to train
+epoch:2203 loss:0.06630022451281548
+now start to train
+epoch:2204 loss:0.06601954624056816
+now start to train
+epoch:2205 loss:0.06351065697769324
+now start to train
+epoch:2206 loss:0.06606518725554149
+now start to train
+epoch:2207 loss:0.0664113275706768
+now start to train
+epoch:2208 loss:0.06465175747871399
+now start to train
+epoch:2209 loss:0.06305495090782642
+now start to train
+epoch:2210 loss:0.06342450591425101
+now start to train
+epoch:2211 loss:0.06587889107565086
+now start to train
+epoch:2212 loss:0.06696058126787345
+now start to train
+epoch:2213 loss:0.06893206387758255
+now start to train
+epoch:2214 loss:0.07528668890396754
+now start to train
+epoch:2215 loss:0.08079160998264949
+now start to train
+epoch:2216 loss:0.07362333312630653
+now start to train
+epoch:2217 loss:0.07574298605322838
+now start to train
+epoch:2218 loss:0.07481422213216622
+now start to train
+epoch:2219 loss:0.071727874999245
+now start to train
+epoch:2220 loss:0.06661520960430305
+now start to train
+epoch:2221 loss:0.06963418051600456
+now start to train
+epoch:2222 loss:0.07237376521031062
+now start to train
+epoch:2223 loss:0.06827158915499847
+now start to train
+epoch:2224 loss:0.07037262618541718
+now start to train
+epoch:2225 loss:0.07903318231304486
+now start to train
+epoch:2226 loss:0.07635182390610377
+now start to train
+epoch:2227 loss:0.07489918544888496
+now start to train
+epoch:2228 loss:0.0751523661116759
+now start to train
+epoch:2229 loss:0.07425140465299289
+now start to train
+epoch:2230 loss:0.07376401809354623
+now start to train
+epoch:2231 loss:0.07440636307001114
+now start to train
+epoch:2232 loss:0.07283376653989156
+now start to train
+epoch:2233 loss:0.07297083487113316
+now start to train
+epoch:2234 loss:0.06884135181705157
+now start to train
+epoch:2235 loss:0.07002144493162632
+now start to train
+epoch:2236 loss:0.06942955094079177
+now start to train
+epoch:2237 loss:0.06712615055342515
+now start to train
+epoch:2238 loss:0.06837380180756251
+now start to train
+epoch:2239 loss:0.06813047640025616
+now start to train
+epoch:2240 loss:0.06521548827489217
+now start to train
+epoch:2241 loss:0.06501414626836777
+now start to train
+epoch:2242 loss:0.07266781913737456
+now start to train
+epoch:2243 loss:0.08612453937530518
+now start to train
+epoch:2244 loss:0.07683296501636505
+now start to train
+epoch:2245 loss:0.07869771867990494
+now start to train
+epoch:2246 loss:0.0749136283993721
+now start to train
+epoch:2247 loss:0.06668103858828545
+now start to train
+epoch:2248 loss:0.0716429880509774
+now start to train
+epoch:2249 loss:0.07305701014896233
+now start to train
+epoch:2250 loss:0.0752826842168967
+now start to train
+epoch:2251 loss:0.07681744421521823
+now start to train
+epoch:2252 loss:0.07244041686256726
+now start to train
+epoch:2253 loss:0.07171374745666981
+now start to train
+epoch:2254 loss:0.0716103333979845
+now start to train
+epoch:2255 loss:0.06896592676639557
+now start to train
+epoch:2256 loss:0.06411181017756462
+now start to train
+epoch:2257 loss:0.06756238577266534
+now start to train
+epoch:2258 loss:0.07150553911924362
+now start to train
+epoch:2259 loss:0.07171412743628025
+now start to train
+epoch:2260 loss:0.07446633838117123
+now start to train
+epoch:2261 loss:0.08237806955973308
+now start to train
+epoch:2262 loss:0.07561053459843
+now start to train
+epoch:2263 loss:0.07571745663881302
+now start to train
+epoch:2264 loss:0.08338365455468495
+now start to train
+epoch:2265 loss:0.07957716596623261
+now start to train
+epoch:2266 loss:0.07273521771033604
+now start to train
+epoch:2267 loss:0.07004821548859279
+now start to train
+epoch:2268 loss:0.06366528881092866
+now start to train
+epoch:2269 loss:0.06349208764731884
+now start to train
+epoch:2270 loss:0.06027490893999735
+now start to train
+epoch:2271 loss:0.060369821886221565
+now start to train
+epoch:2272 loss:0.06124982237815857
+now start to train
+epoch:2273 loss:0.06494986948867638
+now start to train
+epoch:2274 loss:0.0716924387961626
+now start to train
+epoch:2275 loss:0.07462993264198303
+now start to train
+epoch:2276 loss:0.07138922748466332
+now start to train
+epoch:2277 loss:0.06996301685770352
+now start to train
+epoch:2278 loss:0.06597116775810719
+now start to train
+epoch:2279 loss:0.0659648838142554
+now start to train
+epoch:2280 loss:0.06400838121771812
+now start to train
+epoch:2281 loss:0.06309361942112446
+now start to train
+epoch:2282 loss:0.06302907628317674
+now start to train
+epoch:2283 loss:0.061143076668183007
+now start to train
+epoch:2284 loss:0.06079082749783993
+now start to train
+epoch:2285 loss:0.06479083622495334
+now start to train
+epoch:2286 loss:0.06798073711494605
+now start to train
+epoch:2287 loss:0.06517031788825989
+now start to train
+epoch:2288 loss:0.0651908138146003
+now start to train
+epoch:2289 loss:0.06769728784759839
+now start to train
+epoch:2290 loss:0.06763619432846706
+now start to train
+epoch:2291 loss:0.06454765486220519
+now start to train
+epoch:2292 loss:0.062494824330012
+now start to train
+epoch:2293 loss:0.06539512736101945
+now start to train
+epoch:2294 loss:0.06852900423109531
+now start to train
+epoch:2295 loss:0.06934422999620438
+now start to train
+epoch:2296 loss:0.07511593401432037
+now start to train
+epoch:2297 loss:0.07100451985994975
+now start to train
+epoch:2298 loss:0.07287211095293362
+now start to train
+epoch:2299 loss:0.07709281022349994
+now start to train
+epoch:2300 loss:0.07258104160428047
+now start to train
+epoch:2301 loss:0.06662092544138432
+now start to train
+epoch:2302 loss:0.06460818275809288
+now start to train
+epoch:2303 loss:0.06437500814596812
+now start to train
+epoch:2304 loss:0.06441827863454819
+now start to train
+epoch:2305 loss:0.06452640021840732
+now start to train
+epoch:2306 loss:0.06487487815320492
+now start to train
+epoch:2307 loss:0.06216799716154734
+now start to train
+epoch:2308 loss:0.060517258321245514
+now start to train
+epoch:2309 loss:0.0636786948889494
+now start to train
+epoch:2310 loss:0.06254429059724013
+now start to train
+epoch:2311 loss:0.062393540516495705
+now start to train
+epoch:2312 loss:0.05977218101421992
+now start to train
+epoch:2313 loss:0.06130792138477167
+now start to train
+epoch:2314 loss:0.06237067903081576
+now start to train
+epoch:2315 loss:0.06097376781205336
+now start to train
+epoch:2316 loss:0.06467938236892223
+now start to train
+epoch:2317 loss:0.07342837067941825
+now start to train
+epoch:2318 loss:0.07776723429560661
+now start to train
+epoch:2319 loss:0.07522721712787946
+now start to train
+epoch:2320 loss:0.07477676992615064
+now start to train
+epoch:2321 loss:0.06937280297279358
+now start to train
+epoch:2322 loss:0.0649580533305804
+now start to train
+epoch:2323 loss:0.07349400036036968
+now start to train
+epoch:2324 loss:0.07025850067536037
+now start to train
+epoch:2325 loss:0.07817885652184486
+now start to train
+epoch:2326 loss:0.09113012502590816
+now start to train
+epoch:2327 loss:0.09089750051498413
+now start to train
+epoch:2328 loss:0.09109948575496674
+now start to train
+epoch:2329 loss:0.09245069945851962
+now start to train
+epoch:2330 loss:0.09385200217366219
+now start to train
+epoch:2331 loss:0.09455979242920876
+now start to train
+epoch:2332 loss:0.11672897016008695
+now start to train
+epoch:2333 loss:0.10233637442191441
+now start to train
+epoch:2334 loss:0.09074601903557777
+now start to train
+epoch:2335 loss:0.09064879640936852
+now start to train
+epoch:2336 loss:0.10723192989826202
+now start to train
+epoch:2337 loss:0.08907982334494591
+now start to train
+epoch:2338 loss:0.08146234725912412
+now start to train
+epoch:2339 loss:0.07986246794462204
+now start to train
+epoch:2340 loss:0.07422410448392232
+now start to train
+epoch:2341 loss:0.06932850368320942
+now start to train
+epoch:2342 loss:0.06684498302638531
+now start to train
+epoch:2343 loss:0.06670206785202026
+now start to train
+epoch:2344 loss:0.06519415539999802
+now start to train
+epoch:2345 loss:0.06423065563042958
+now start to train
+epoch:2346 loss:0.06587879918515682
+now start to train
+epoch:2347 loss:0.07087274516622226
+now start to train
+epoch:2348 loss:0.07947177439928055
+now start to train
+epoch:2349 loss:0.07305789490540822
+now start to train
+epoch:2350 loss:0.07891023034850757
+now start to train
+epoch:2351 loss:0.07171442297597726
+now start to train
+epoch:2352 loss:0.0721328208843867
+now start to train
+epoch:2353 loss:0.06789818902810414
+now start to train
+epoch:2354 loss:0.06592703176041444
+now start to train
+epoch:2355 loss:0.06526095730563004
+now start to train
+epoch:2356 loss:0.06251182903846104
+now start to train
+epoch:2357 loss:0.06229067097107569
+now start to train
+epoch:2358 loss:0.07487349646786849
+now start to train
+epoch:2359 loss:0.07434869433442752
+now start to train
+epoch:2360 loss:0.07284344360232353
+now start to train
+epoch:2361 loss:0.07243040204048157
+now start to train
+epoch:2362 loss:0.07130511477589607
+now start to train
+epoch:2363 loss:0.06413983305295308
+now start to train
+epoch:2364 loss:0.06429329762856166
+now start to train
+epoch:2365 loss:0.06607386283576488
+now start to train
+epoch:2366 loss:0.07652145251631737
+now start to train
+epoch:2367 loss:0.08120500668883324
+now start to train
+epoch:2368 loss:0.07548592984676361
+now start to train
+epoch:2369 loss:0.07389621312419574
+now start to train
+epoch:2370 loss:0.06819732363025348
+now start to train
+epoch:2371 loss:0.06344233204921086
+now start to train
+epoch:2372 loss:0.06207850140829881
+now start to train
+epoch:2373 loss:0.06413710676133633
+now start to train
+epoch:2374 loss:0.06250584249695142
+now start to train
+epoch:2375 loss:0.06290930944184463
+now start to train
+epoch:2376 loss:0.06489264468352
+now start to train
+epoch:2377 loss:0.06536782036225001
+now start to train
+epoch:2378 loss:0.06545489529768626
+now start to train
+epoch:2379 loss:0.06166385610898336
+now start to train
+epoch:2380 loss:0.06526248529553413
+now start to train
+epoch:2381 loss:0.05965199818213781
+now start to train
+epoch:2382 loss:0.06166130118072033
+now start to train
+epoch:2383 loss:0.060943273827433586
+now start to train
+epoch:2384 loss:0.0598129058877627
+now start to train
+epoch:2385 loss:0.06774778602023919
+now start to train
+epoch:2386 loss:0.07712992404898007
+now start to train
+epoch:2387 loss:0.08436199277639389
+now start to train
+epoch:2388 loss:0.07770211001237233
+now start to train
+epoch:2389 loss:0.08006125564376514
+now start to train
+epoch:2390 loss:0.07655676081776619
+now start to train
+epoch:2391 loss:0.07723679766058922
+now start to train
+epoch:2392 loss:0.07712071016430855
+now start to train
+epoch:2393 loss:0.07958920548359553
+now start to train
+epoch:2394 loss:0.07322791094581287
+now start to train
+epoch:2395 loss:0.07932815266152222
+now start to train
+epoch:2396 loss:0.07778535100320975
+now start to train
+epoch:2397 loss:0.07926406214634578
+now start to train
+epoch:2398 loss:0.07133151963353157
+now start to train
+epoch:2399 loss:0.07789591327309608
+now start to train
+epoch:2400 loss:0.08271592979629834
+now start to train
+epoch:2401 loss:0.07886447757482529
+now start to train
+epoch:2402 loss:0.08073731511831284
+now start to train
+epoch:2403 loss:0.09272596488396327
+now start to train
+epoch:2404 loss:0.1061925192674001
+now start to train
+epoch:2405 loss:0.0941390593846639
+now start to train
+epoch:2406 loss:0.08232609058419864
+now start to train
+epoch:2407 loss:0.07196250806252162
+now start to train
+epoch:2408 loss:0.07744320357839267
+now start to train
+epoch:2409 loss:0.07678631196419398
+now start to train
+epoch:2410 loss:0.07050757793088754
+now start to train
+epoch:2411 loss:0.06696793747444947
+now start to train
+epoch:2412 loss:0.06609678144256274
+now start to train
+epoch:2413 loss:0.06368105796476205
+now start to train
+epoch:2414 loss:0.06206892989575863
+now start to train
+epoch:2415 loss:0.06948740097383659
+now start to train
+epoch:2416 loss:0.07298660278320312
+now start to train
+epoch:2417 loss:0.07130096604426701
+now start to train
+epoch:2418 loss:0.07544404889146487
+now start to train
+epoch:2419 loss:0.07243907575805981
+now start to train
+epoch:2420 loss:0.07295364824434121
+now start to train
+epoch:2421 loss:0.07497354472676913
+now start to train
+epoch:2422 loss:0.07046967248121898
+now start to train
+epoch:2423 loss:0.07444155712922414
+now start to train
+epoch:2424 loss:0.07677963003516197
+now start to train
+epoch:2425 loss:0.07785570931931336
+now start to train
+epoch:2426 loss:0.06990804957846801
+now start to train
+epoch:2427 loss:0.07127587993939717
+now start to train
+epoch:2428 loss:0.06986535713076591
+now start to train
+epoch:2429 loss:0.06728843040764332
+now start to train
+epoch:2430 loss:0.06887097284197807
+now start to train
+epoch:2431 loss:0.06230208836495876
+now start to train
+epoch:2432 loss:0.06273276855548222
+now start to train
+epoch:2433 loss:0.06267595229049523
+now start to train
+epoch:2434 loss:0.06396838960548241
+now start to train
+epoch:2435 loss:0.061062472561995186
+now start to train
+epoch:2436 loss:0.06171474667886893
+now start to train
+epoch:2437 loss:0.0583079227556785
+now start to train
+epoch:2438 loss:0.05765607953071594
+now start to train
+epoch:2439 loss:0.058830286065737404
+now start to train
+epoch:2440 loss:0.06397094577550888
+now start to train
+epoch:2441 loss:0.06058557207385699
+now start to train
+epoch:2442 loss:0.06158086284995079
+now start to train
+epoch:2443 loss:0.06152058641115824
+now start to train
+epoch:2444 loss:0.05865867001314958
+now start to train
+epoch:2445 loss:0.05997259852786859
+now start to train
+epoch:2446 loss:0.06806034967303276
+now start to train
+epoch:2447 loss:0.06526253310342629
+now start to train
+epoch:2448 loss:0.06013582150141398
+now start to train
+epoch:2449 loss:0.0623983150968949
+now start to train
+epoch:2450 loss:0.06288978519539039
+now start to train
+epoch:2451 loss:0.05880944306651751
+now start to train
+epoch:2452 loss:0.060349841291705765
+now start to train
+epoch:2453 loss:0.05846499092876911
+now start to train
+epoch:2454 loss:0.062088808665672936
+now start to train
+epoch:2455 loss:0.05845254038770994
+now start to train
+epoch:2456 loss:0.06364596448838711
+now start to train
+epoch:2457 loss:0.06940217440327008
+now start to train
+epoch:2458 loss:0.06791942504545052
+now start to train
+epoch:2459 loss:0.06374620956679185
+now start to train
+epoch:2460 loss:0.06349384722610314
+now start to train
+epoch:2461 loss:0.06060757922629515
+now start to train
+epoch:2462 loss:0.06024534503618876
+now start to train
+epoch:2463 loss:0.05817629396915436
+now start to train
+epoch:2464 loss:0.057792712623874344
+now start to train
+epoch:2465 loss:0.057733949894706406
+now start to train
+epoch:2466 loss:0.05685452682276567
+now start to train
+epoch:2467 loss:0.05821238271892071
+now start to train
+epoch:2468 loss:0.05701728413502375
+now start to train
+epoch:2469 loss:0.053745180989305176
+now start to train
+epoch:2470 loss:0.054728168373306595
+now start to train
+epoch:2471 loss:0.055458291744192444
+now start to train
+epoch:2472 loss:0.056517744436860085
+now start to train
+epoch:2473 loss:0.06202164168159167
+now start to train
+epoch:2474 loss:0.0636167898774147
+now start to train
+epoch:2475 loss:0.057530287032326065
+now start to train
+epoch:2476 loss:0.05519845522940159
+now start to train
+epoch:2477 loss:0.05316235932211081
+now start to train
+epoch:2478 loss:0.055962267642219864
+now start to train
+epoch:2479 loss:0.05807471089065075
+now start to train
+epoch:2480 loss:0.058314223463336624
+now start to train
+epoch:2481 loss:0.05905030046900114
+now start to train
+epoch:2482 loss:0.060620930045843124
+now start to train
+epoch:2483 loss:0.06725405653317769
+now start to train
+epoch:2484 loss:0.06191676172117392
+now start to train
+epoch:2485 loss:0.06017626884082953
+now start to train
+epoch:2486 loss:0.06109047681093216
+now start to train
+epoch:2487 loss:0.06404510202507178
+now start to train
+epoch:2488 loss:0.061420454954107605
+now start to train
+epoch:2489 loss:0.06261687849958737
+now start to train
+epoch:2490 loss:0.06878803670406342
+now start to train
+epoch:2491 loss:0.06413072720170021
+now start to train
+epoch:2492 loss:0.06301209330558777
+now start to train
+epoch:2493 loss:0.06049582610527674
+now start to train
+epoch:2494 loss:0.057741730784376465
+now start to train
+epoch:2495 loss:0.05748002231121063
+now start to train
+epoch:2496 loss:0.057149928684035935
+now start to train
+epoch:2497 loss:0.06571074451009433
+now start to train
+epoch:2498 loss:0.06211394754548868
+now start to train
+epoch:2499 loss:0.06282125599682331
+now start to train
+epoch:2500 loss:0.06669516923526923
+now start to train
+epoch:2501 loss:0.06872535931567351
+now start to train
+epoch:2502 loss:0.06213826624055704
+now start to train
+epoch:2503 loss:0.056739638869961105
+now start to train
+epoch:2504 loss:0.05837484821677208
+now start to train
+epoch:2505 loss:0.061360117668906845
+now start to train
+epoch:2506 loss:0.061475337793429695
+now start to train
+epoch:2507 loss:0.06278714103003342
+now start to train
+epoch:2508 loss:0.06141797949870428
+now start to train
+epoch:2509 loss:0.05806291041274866
+now start to train
+epoch:2510 loss:0.058508616561690964
+now start to train
+epoch:2511 loss:0.0685082096606493
+now start to train
+epoch:2512 loss:0.05925662567218145
+now start to train
+epoch:2513 loss:0.05929599143564701
+now start to train
+epoch:2514 loss:0.05368484494586786
+now start to train
+epoch:2515 loss:0.05368873787422975
+now start to train
+epoch:2516 loss:0.05509150276581446
+now start to train
+epoch:2517 loss:0.052554501220583916
+now start to train
+epoch:2518 loss:0.05223402505119642
+now start to train
+epoch:2519 loss:0.05499795203407606
+now start to train
+epoch:2520 loss:0.054487053925792374
+now start to train
+epoch:2521 loss:0.05586611727873484
+now start to train
+epoch:2522 loss:0.055140032122532524
+now start to train
+epoch:2523 loss:0.056186638151605926
+now start to train
+epoch:2524 loss:0.05652639580269655
+now start to train
+epoch:2525 loss:0.06376123117903869
+now start to train
+epoch:2526 loss:0.0653806496411562
+now start to train
+epoch:2527 loss:0.06626182484130065
+now start to train
+epoch:2528 loss:0.06642367442448933
+now start to train
+epoch:2529 loss:0.06573035319646199
+now start to train
+epoch:2530 loss:0.06268918638428052
+now start to train
+epoch:2531 loss:0.06048099510371685
+now start to train
+epoch:2532 loss:0.05650407262146473
+now start to train
+epoch:2533 loss:0.05224010720849037
+now start to train
+epoch:2534 loss:0.054464144011338554
+now start to train
+epoch:2535 loss:0.061663663014769554
+now start to train
+epoch:2536 loss:0.07097496464848518
+now start to train
+epoch:2537 loss:0.06633752584457397
+now start to train
+epoch:2538 loss:0.05753131148715814
+now start to train
+epoch:2539 loss:0.05717340484261513
+now start to train
+epoch:2540 loss:0.05307896869877974
+now start to train
+epoch:2541 loss:0.05296183563768864
+now start to train
+epoch:2542 loss:0.05445052000383536
+now start to train
+epoch:2543 loss:0.053866936514774956
+now start to train
+epoch:2544 loss:0.051836115618546806
+now start to train
+epoch:2545 loss:0.05267619714140892
+now start to train
+epoch:2546 loss:0.05513903064032396
+now start to train
+epoch:2547 loss:0.05824143812060356
+now start to train
+epoch:2548 loss:0.06866896152496338
+now start to train
+epoch:2549 loss:0.065500824401776
+now start to train
+epoch:2550 loss:0.06478467273215453
+now start to train
+epoch:2551 loss:0.060550116623441376
+now start to train
+epoch:2552 loss:0.06849289623399575
+now start to train
+epoch:2553 loss:0.06351257053514321
+now start to train
+epoch:2554 loss:0.06326181441545486
+now start to train
+epoch:2555 loss:0.05844695307314396
+now start to train
+epoch:2556 loss:0.05806348659098148
+now start to train
+epoch:2557 loss:0.05715529931088289
+now start to train
+epoch:2558 loss:0.05477809595565001
+now start to train
+epoch:2559 loss:0.053159348045786224
+now start to train
+epoch:2560 loss:0.05797505068282286
+now start to train
+epoch:2561 loss:0.05842042900621891
+now start to train
+epoch:2562 loss:0.06941340118646622
+now start to train
+epoch:2563 loss:0.07191527200241883
+now start to train
+epoch:2564 loss:0.06742338091135025
+now start to train
+epoch:2565 loss:0.06734325302143891
+now start to train
+epoch:2566 loss:0.06223153260846933
+now start to train
+epoch:2567 loss:0.06593914826711018
+now start to train
+epoch:2568 loss:0.06803826863567035
+now start to train
+epoch:2569 loss:0.06887947767972946
+now start to train
+epoch:2570 loss:0.06686879818638165
+now start to train
+epoch:2571 loss:0.06689320070048173
+now start to train
+epoch:2572 loss:0.0687526303033034
+now start to train
+epoch:2573 loss:0.0643219171712796
+now start to train
+epoch:2574 loss:0.06467977538704872
+now start to train
+epoch:2575 loss:0.06716424413025379
+now start to train
+epoch:2576 loss:0.06556946287552516
+now start to train
+epoch:2577 loss:0.06058814376592636
+now start to train
+epoch:2578 loss:0.06081958053012689
+now start to train
+epoch:2579 loss:0.0578515250235796
+now start to train
+epoch:2580 loss:0.05777830754717191
+now start to train
+epoch:2581 loss:0.06122290280958017
+now start to train
+epoch:2582 loss:0.07440341884891193
+now start to train
+epoch:2583 loss:0.07621639221906662
+now start to train
+epoch:2584 loss:0.07053305332859357
+now start to train
+epoch:2585 loss:0.0698096187164386
+now start to train
+epoch:2586 loss:0.06658365329106648
+now start to train
+epoch:2587 loss:0.06276754600306352
+now start to train
+epoch:2588 loss:0.05674617923796177
+now start to train
+epoch:2589 loss:0.05525134255488714
+now start to train
+epoch:2590 loss:0.05802185274660587
+now start to train
+epoch:2591 loss:0.05809880048036575
+now start to train
+epoch:2592 loss:0.06202796660363674
+now start to train
+epoch:2593 loss:0.05995328786472479
+now start to train
+epoch:2594 loss:0.06705961376428604
+now start to train
+epoch:2595 loss:0.05860936517516772
+now start to train
+epoch:2596 loss:0.05783828223745028
+now start to train
+epoch:2597 loss:0.06982480982939403
+now start to train
+epoch:2598 loss:0.0683731207003196
+now start to train
+epoch:2599 loss:0.06669216975569725
+now start to train
+epoch:2600 loss:0.06355724359552066
+now start to train
+epoch:2601 loss:0.055127921824653946
+now start to train
+epoch:2602 loss:0.049892605592807136
+now start to train
+epoch:2603 loss:0.04613631032407284
+now start to train
+epoch:2604 loss:0.04401872927943865
+now start to train
+epoch:2605 loss:0.04281847613553206
+now start to train
+epoch:2606 loss:0.04237254895269871
+now start to train
+epoch:2607 loss:0.04175430350005627
+now start to train
+epoch:2608 loss:0.04148639179766178
+now start to train
+epoch:2609 loss:0.04115506944557031
+now start to train
+epoch:2610 loss:0.04085518140345812
+now start to train
+epoch:2611 loss:0.04075063392519951
+now start to train
+epoch:2612 loss:0.04051800879339377
+now start to train
+epoch:2613 loss:0.040421737978855767
+now start to train
+epoch:2614 loss:0.04042073960105578
+now start to train
+epoch:2615 loss:0.040282392874360085
+now start to train
+epoch:2616 loss:0.04021365443865458
+now start to train
+epoch:2617 loss:0.04011988205214342
+now start to train
+epoch:2618 loss:0.04002144746482372
+now start to train
+epoch:2619 loss:0.03992825746536255
+now start to train
+epoch:2620 loss:0.039903078538676105
+now start to train
+epoch:2621 loss:0.039808531602223717
+now start to train
+epoch:2622 loss:0.03975704684853554
+now start to train
+epoch:2623 loss:0.039728738367557526
+now start to train
+epoch:2624 loss:0.039692383259534836
+now start to train
+epoch:2625 loss:0.039679628486434616
+now start to train
+epoch:2626 loss:0.03966626742233833
+now start to train
+epoch:2627 loss:0.03963508146504561
+now start to train
+epoch:2628 loss:0.0396014309177796
+now start to train
+epoch:2629 loss:0.039574069591859974
+now start to train
+epoch:2630 loss:0.039529370764891304
+now start to train
+epoch:2631 loss:0.03952416901787122
+now start to train
+epoch:2632 loss:0.03947638223568598
+now start to train
+epoch:2633 loss:0.03944833390414715
+now start to train
+epoch:2634 loss:0.039406570295492806
+now start to train
+epoch:2635 loss:0.039399731904268265
+now start to train
+epoch:2636 loss:0.039377223079403244
+now start to train
+epoch:2637 loss:0.039375814298788704
+now start to train
+epoch:2638 loss:0.03940055208901564
+now start to train
+epoch:2639 loss:0.03935469749073187
+now start to train
+epoch:2640 loss:0.03935197368264198
+now start to train
+epoch:2641 loss:0.03930371875564257
+now start to train
+epoch:2642 loss:0.03928127884864807
+now start to train
+epoch:2643 loss:0.03927429144581159
+now start to train
+epoch:2644 loss:0.03924201739331087
+now start to train
+epoch:2645 loss:0.03922948054969311
+now start to train
+epoch:2646 loss:0.03920243866741657
+now start to train
+epoch:2647 loss:0.03917196268836657
+now start to train
+epoch:2648 loss:0.039150203267733254
+now start to train
+epoch:2649 loss:0.0391579003383716
+now start to train
+epoch:2650 loss:0.03915782862653335
+now start to train
+epoch:2651 loss:0.039109433690706887
+now start to train
+epoch:2652 loss:0.039084329890708126
+now start to train
+epoch:2653 loss:0.03906473610550165
+now start to train
+epoch:2654 loss:0.0390553871790568
+now start to train
+epoch:2655 loss:0.039043243043124676
+now start to train
+epoch:2656 loss:0.039027818789084755
+now start to train
+epoch:2657 loss:0.03901853350301584
+now start to train
+epoch:2658 loss:0.03900408558547497
+now start to train
+epoch:2659 loss:0.0389992892742157
+now start to train
+epoch:2660 loss:0.03898134330908457
+now start to train
+epoch:2661 loss:0.03896229838331541
+now start to train
+epoch:2662 loss:0.038942174365123115
+now start to train
+epoch:2663 loss:0.038945684830347695
+now start to train
+epoch:2664 loss:0.03897647404422363
+now start to train
+epoch:2665 loss:0.03898386595149835
+now start to train
+epoch:2666 loss:0.038964305693904557
+now start to train
+epoch:2667 loss:0.038981915141145386
+now start to train
+epoch:2668 loss:0.03892849572002888
+now start to train
+epoch:2669 loss:0.03891883231699467
+now start to train
+epoch:2670 loss:0.03888395056128502
+now start to train
+epoch:2671 loss:0.03886677697300911
+now start to train
+epoch:2672 loss:0.038863071550925575
+now start to train
+epoch:2673 loss:0.038852849354346596
+now start to train
+epoch:2674 loss:0.038832552110155426
+now start to train
+epoch:2675 loss:0.03880975271264712
+now start to train
+epoch:2676 loss:0.03880210438122352
+now start to train
+epoch:2677 loss:0.03878892368326584
+now start to train
+epoch:2678 loss:0.03878349345177412
+now start to train
+epoch:2679 loss:0.038777813936273255
+now start to train
+epoch:2680 loss:0.03876253621031841
+now start to train
+epoch:2681 loss:0.038747405633330345
+now start to train
+epoch:2682 loss:0.03873157904793819
+now start to train
+epoch:2683 loss:0.03872064066429933
+now start to train
+epoch:2684 loss:0.03872350789606571
+now start to train
+epoch:2685 loss:0.03871754774202903
+now start to train
+epoch:2686 loss:0.03871999867260456
+now start to train
+epoch:2687 loss:0.03871379792690277
+now start to train
+epoch:2688 loss:0.038704448069135346
+now start to train
+epoch:2689 loss:0.03872128203511238
+now start to train
+epoch:2690 loss:0.03879295475780964
+now start to train
+epoch:2691 loss:0.03874627314507961
+now start to train
+epoch:2692 loss:0.03874539118260145
+now start to train
+epoch:2693 loss:0.03875159099698067
+now start to train
+epoch:2694 loss:0.03870895070334276
+now start to train
+epoch:2695 loss:0.03880278393626213
+now start to train
+epoch:2696 loss:0.03881223779171705
+now start to train
+epoch:2697 loss:0.03883108372489611
+now start to train
+epoch:2698 loss:0.03885046051194271
+now start to train
+epoch:2699 loss:0.0388385554154714
+now start to train
+epoch:2700 loss:0.03874622409542402
+now start to train
+epoch:2701 loss:0.03882675307492415
+now start to train
+epoch:2702 loss:0.03875054698437452
+now start to train
+epoch:2703 loss:0.038681888952851295
+now start to train
+epoch:2704 loss:0.03864829863111178
+now start to train
+epoch:2705 loss:0.038594107143580914
+now start to train
+epoch:2706 loss:0.03859821334481239
+now start to train
+epoch:2707 loss:0.03858106335004171
+now start to train
+epoch:2708 loss:0.0385489979137977
+now start to train
+epoch:2709 loss:0.03851179095606009
+now start to train
+epoch:2710 loss:0.0385053971161445
+now start to train
+epoch:2711 loss:0.03848980118830999
+now start to train
+epoch:2712 loss:0.038470569998025894
+now start to train
+epoch:2713 loss:0.038465521608789764
+now start to train
+epoch:2714 loss:0.0384712473799785
+now start to train
+epoch:2715 loss:0.038461451108256973
+now start to train
+epoch:2716 loss:0.038474260829389095
+now start to train
+epoch:2717 loss:0.03844917193055153
+now start to train
+epoch:2718 loss:0.03842840250581503
+now start to train
+epoch:2719 loss:0.038424694600204624
+now start to train
+epoch:2720 loss:0.03841580078005791
+now start to train
+epoch:2721 loss:0.03840548141549031
+now start to train
+epoch:2722 loss:0.038407569751143456
+now start to train
+epoch:2723 loss:0.03841169054309527
+now start to train
+epoch:2724 loss:0.03840894686679045
+now start to train
+epoch:2725 loss:0.03841753179828326
+now start to train
+epoch:2726 loss:0.038415529454747833
+now start to train
+epoch:2727 loss:0.038395257045825325
+now start to train
+epoch:2728 loss:0.038415439426898956
+now start to train
+epoch:2729 loss:0.03842549740026394
+now start to train
+epoch:2730 loss:0.038442471995949745
+now start to train
+epoch:2731 loss:0.03839235194027424
+now start to train
+epoch:2732 loss:0.038400561238328614
+now start to train
+epoch:2733 loss:0.03841945653160413
+now start to train
+epoch:2734 loss:0.038394080474972725
+now start to train
+epoch:2735 loss:0.0384196105102698
+now start to train
+epoch:2736 loss:0.038399453895787396
+now start to train
+epoch:2737 loss:0.038404532397786774
+now start to train
+epoch:2738 loss:0.03836564626544714
+now start to train
+epoch:2739 loss:0.038353417068719864
+now start to train
+epoch:2740 loss:0.038347785671552025
+now start to train
+epoch:2741 loss:0.03831206075847149
+now start to train
+epoch:2742 loss:0.03829675198843082
+now start to train
+epoch:2743 loss:0.03828965996702512
+now start to train
+epoch:2744 loss:0.038282761039833225
+now start to train
+epoch:2745 loss:0.038265599558750786
+now start to train
+epoch:2746 loss:0.038241892432173095
+now start to train
+epoch:2747 loss:0.03823228242496649
+now start to train
+epoch:2748 loss:0.03822121831278006
+now start to train
+epoch:2749 loss:0.03820709449549516
+now start to train
+epoch:2750 loss:0.03819254289070765
+now start to train
+epoch:2751 loss:0.038190608844161034
+now start to train
+epoch:2752 loss:0.03819952222208182
+now start to train
+epoch:2753 loss:0.03818480235834917
+now start to train
+epoch:2754 loss:0.03818535494307677
+now start to train
+epoch:2755 loss:0.03818778538455566
+now start to train
+epoch:2756 loss:0.038181823678314686
+now start to train
+epoch:2757 loss:0.03815575006107489
+now start to train
+epoch:2758 loss:0.03816126907865206
+now start to train
+epoch:2759 loss:0.03815332893282175
+now start to train
+epoch:2760 loss:0.03814412901798884
+now start to train
+epoch:2761 loss:0.038125539819399513
+now start to train
+epoch:2762 loss:0.038132346545656524
+now start to train
+epoch:2763 loss:0.03811669039229552
+now start to train
+epoch:2764 loss:0.03816208429634571
+now start to train
+epoch:2765 loss:0.03815747611224651
+now start to train
+epoch:2766 loss:0.0381933863585194
+now start to train
+epoch:2767 loss:0.038170559952656426
+now start to train
+epoch:2768 loss:0.03814810266097387
+now start to train
+epoch:2769 loss:0.03812942529718081
+now start to train
+epoch:2770 loss:0.03810613323003054
+now start to train
+epoch:2771 loss:0.038086610535780586
+now start to train
+epoch:2772 loss:0.03808389107386271
+now start to train
+epoch:2773 loss:0.038049751271804176
+now start to train
+epoch:2774 loss:0.03804062586277723
+now start to train
+epoch:2775 loss:0.03802997339516878
+now start to train
+epoch:2776 loss:0.03802143347760042
+now start to train
+epoch:2777 loss:0.03807054087519646
+now start to train
+epoch:2778 loss:0.038055081541339554
+now start to train
+epoch:2779 loss:0.038056520745158195
+now start to train
+epoch:2780 loss:0.03804501829047998
+now start to train
+epoch:2781 loss:0.038017889174322285
+now start to train
+epoch:2782 loss:0.037993272145589195
+now start to train
+epoch:2783 loss:0.03797144256532192
+now start to train
+epoch:2784 loss:0.03796816865603129
+now start to train
+epoch:2785 loss:0.03796710446476936
+now start to train
+epoch:2786 loss:0.03798070674141248
+now start to train
+epoch:2787 loss:0.037980462734897934
+now start to train
+epoch:2788 loss:0.0379599512865146
+now start to train
+epoch:2789 loss:0.037984952020148434
+now start to train
+epoch:2790 loss:0.0379992655167977
+now start to train
+epoch:2791 loss:0.038033045207460724
+now start to train
+epoch:2792 loss:0.038040490821003914
+now start to train
+epoch:2793 loss:0.03802673518657684
+now start to train
+epoch:2794 loss:0.03799134741226832
+now start to train
+epoch:2795 loss:0.037999654499193035
+now start to train
+epoch:2796 loss:0.03799544430027405
+now start to train
+epoch:2797 loss:0.03802059746036927
+now start to train
+epoch:2798 loss:0.037983741611242294
+now start to train
+epoch:2799 loss:0.03794847490886847
+now start to train
+epoch:2800 loss:0.03795316846420368
+now start to train
+epoch:2801 loss:0.03791075820724169
+now start to train
+epoch:2802 loss:0.03789904713630676
+now start to train
+epoch:2803 loss:0.03787818488975366
+now start to train
+epoch:2804 loss:0.03785131964832544
+now start to train
+epoch:2805 loss:0.0378577895462513
+now start to train
+epoch:2806 loss:0.03784334845840931
+now start to train
+epoch:2807 loss:0.03783865769704183
+now start to train
+epoch:2808 loss:0.03784125981231531
+now start to train
+epoch:2809 loss:0.03784125732878844
+now start to train
+epoch:2810 loss:0.03785782866179943
+now start to train
+epoch:2811 loss:0.037839472914735474
+now start to train
+epoch:2812 loss:0.0378446743513147
+now start to train
+epoch:2813 loss:0.0378288459032774
+now start to train
+epoch:2814 loss:0.03781745831171671
+now start to train
+epoch:2815 loss:0.03782267061372598
+now start to train
+epoch:2816 loss:0.03779310670991739
+now start to train
+epoch:2817 loss:0.03778883690635363
+now start to train
+epoch:2818 loss:0.03779199036459128
+now start to train
+epoch:2819 loss:0.037793311600883804
+now start to train
+epoch:2820 loss:0.03779632784426212
+now start to train
+epoch:2821 loss:0.0377629188199838
+now start to train
+epoch:2822 loss:0.03775457044442495
+now start to train
+epoch:2823 loss:0.03773867587248484
+now start to train
+epoch:2824 loss:0.037731808299819626
+now start to train
+epoch:2825 loss:0.03774027153849602
+now start to train
+epoch:2826 loss:0.0377554747586449
+now start to train
+epoch:2827 loss:0.03776502733429273
+now start to train
+epoch:2828 loss:0.03774184640496969
+now start to train
+epoch:2829 loss:0.037716493010520935
+now start to train
+epoch:2830 loss:0.0377433638398846
+now start to train
+epoch:2831 loss:0.037740660520891346
+now start to train
+epoch:2832 loss:0.037750077433884144
+now start to train
+epoch:2833 loss:0.03774774198730787
+now start to train
+epoch:2834 loss:0.037732004498442016
+now start to train
+epoch:2835 loss:0.03772247054924568
+now start to train
+epoch:2836 loss:0.037702903151512146
+now start to train
+epoch:2837 loss:0.037698124845822654
+now start to train
+epoch:2838 loss:0.03767905353258053
+now start to train
+epoch:2839 loss:0.03768396253387133
+now start to train
+epoch:2840 loss:0.03767357269922892
+now start to train
+epoch:2841 loss:0.03765582541624705
+now start to train
+epoch:2842 loss:0.037664817025264107
+now start to train
+epoch:2843 loss:0.03767157935847839
+now start to train
+epoch:2844 loss:0.037689245926837124
+now start to train
+epoch:2845 loss:0.03776256833225489
+now start to train
+epoch:2846 loss:0.037734940027197204
+now start to train
+epoch:2847 loss:0.03767932392656803
+now start to train
+epoch:2848 loss:0.03773109552760919
+now start to train
+epoch:2849 loss:0.03767611117412647
+now start to train
+epoch:2850 loss:0.03766299908359846
+now start to train
+epoch:2851 loss:0.03766639096041521
+now start to train
+epoch:2852 loss:0.037649475348492466
+now start to train
+epoch:2853 loss:0.03763612359762192
+now start to train
+epoch:2854 loss:0.03762590636809667
+now start to train
+epoch:2855 loss:0.03757928932706515
+now start to train
+epoch:2856 loss:0.0375780425965786
+now start to train
+epoch:2857 loss:0.03758433430145184
+now start to train
+epoch:2858 loss:0.037576259734729923
+now start to train
+epoch:2859 loss:0.03758147141585747
+now start to train
+epoch:2860 loss:0.03756558336317539
+now start to train
+epoch:2861 loss:0.03757440733412901
+now start to train
+epoch:2862 loss:0.03758029080927372
+now start to train
+epoch:2863 loss:0.03755960427224636
+now start to train
+epoch:2864 loss:0.03754894621670246
+now start to train
+epoch:2865 loss:0.03753567300736904
+now start to train
+epoch:2866 loss:0.03751817221442858
+now start to train
+epoch:2867 loss:0.03753639757633209
+now start to train
+epoch:2868 loss:0.03753517350802819
+now start to train
+epoch:2869 loss:0.037510949497421585
+now start to train
+epoch:2870 loss:0.03749626191953818
+now start to train
+epoch:2871 loss:0.037479937076568604
+now start to train
+epoch:2872 loss:0.0374736525118351
+now start to train
+epoch:2873 loss:0.03749817485610644
+now start to train
+epoch:2874 loss:0.037536716709534325
+now start to train
+epoch:2875 loss:0.03753392739842335
+now start to train
+epoch:2876 loss:0.03750551616152128
+now start to train
+epoch:2877 loss:0.03757865230242411
+now start to train
+epoch:2878 loss:0.03760331713904937
+now start to train
+epoch:2879 loss:0.037606410682201385
+now start to train
+epoch:2880 loss:0.037547229478756584
+now start to train
+epoch:2881 loss:0.03750358956555525
+now start to train
+epoch:2882 loss:0.03748661341766516
+now start to train
+epoch:2883 loss:0.037461040851970516
+now start to train
+epoch:2884 loss:0.03744797967374325
+now start to train
+epoch:2885 loss:0.03742850416650375
+now start to train
+epoch:2886 loss:0.037418983255823456
+now start to train
+epoch:2887 loss:0.03741829562932253
+now start to train
+epoch:2888 loss:0.03744612572093805
+now start to train
+epoch:2889 loss:0.037436941949029766
+now start to train
+epoch:2890 loss:0.037464797496795654
+now start to train
+epoch:2891 loss:0.03743633379538854
+now start to train
+epoch:2892 loss:0.03741471065829197
+now start to train
+epoch:2893 loss:0.037394918501377106
+now start to train
+epoch:2894 loss:0.037410855293273926
+now start to train
+epoch:2895 loss:0.03740264537433783
+now start to train
+epoch:2896 loss:0.037386237954099975
+now start to train
+epoch:2897 loss:0.037366473426421486
+now start to train
+epoch:2898 loss:0.037346155693133674
+now start to train
+epoch:2899 loss:0.037345818554361664
+now start to train
+epoch:2900 loss:0.03731013492991527
+now start to train
+epoch:2901 loss:0.03729051568855842
+now start to train
+epoch:2902 loss:0.03728438727557659
+now start to train
+epoch:2903 loss:0.0372780313094457
+now start to train
+epoch:2904 loss:0.03727390586088101
+now start to train
+epoch:2905 loss:0.037272472555438675
+now start to train
+epoch:2906 loss:0.037268644819657006
+now start to train
+epoch:2907 loss:0.03726881121595701
+now start to train
+epoch:2908 loss:0.03726647111276785
+now start to train
+epoch:2909 loss:0.03726562267790238
+now start to train
+epoch:2910 loss:0.037264589530726276
+now start to train
+epoch:2911 loss:0.03726339309165875
+now start to train
+epoch:2912 loss:0.037261336110532284
+now start to train
+epoch:2913 loss:0.03726226712266604
+now start to train
+epoch:2914 loss:0.037261165057619415
+now start to train
+epoch:2915 loss:0.03726080742975076
+now start to train
+epoch:2916 loss:0.03725809697061777
+now start to train
+epoch:2917 loss:0.03725752296547095
+now start to train
+epoch:2918 loss:0.03725578201313814
+now start to train
+epoch:2919 loss:0.03725596393148104
+now start to train
+epoch:2920 loss:0.0372544260074695
+now start to train
+epoch:2921 loss:0.037254185105363526
+now start to train
+epoch:2922 loss:0.03725459023068348
+now start to train
+epoch:2923 loss:0.037255786980191864
+now start to train
+epoch:2924 loss:0.03725225602587064
+now start to train
+epoch:2925 loss:0.03725062683224678
+now start to train
+epoch:2926 loss:0.03725127565364043
+now start to train
+epoch:2927 loss:0.037249897606670856
+now start to train
+epoch:2928 loss:0.03725043684244156
+now start to train
+epoch:2929 loss:0.03725078453620275
+now start to train
+epoch:2930 loss:0.03724848137547573
+now start to train
+epoch:2931 loss:0.0372474572310845
+now start to train
+epoch:2932 loss:0.037246823931733765
+now start to train
+epoch:2933 loss:0.03724743612110615
+now start to train
+epoch:2934 loss:0.03724558589359125
+now start to train
+epoch:2935 loss:0.03724601988991102
+now start to train
+epoch:2936 loss:0.037245096638798714
+now start to train
+epoch:2937 loss:0.037247721726695694
+now start to train
+epoch:2938 loss:0.03724584480126699
+now start to train
+epoch:2939 loss:0.037243554989496865
+now start to train
+epoch:2940 loss:0.03724252060055733
+now start to train
+epoch:2941 loss:0.037241301188866295
+now start to train
+epoch:2942 loss:0.03724232502281666
+now start to train
+epoch:2943 loss:0.03723980455348889
+now start to train
+epoch:2944 loss:0.03724117514987787
+now start to train
+epoch:2945 loss:0.037239894891778626
+now start to train
+epoch:2946 loss:0.0372395571321249
+now start to train
+epoch:2947 loss:0.037238858019312225
+now start to train
+epoch:2948 loss:0.037237354243795075
+now start to train
+epoch:2949 loss:0.03723575764646133
+now start to train
+epoch:2950 loss:0.03723612055182457
+now start to train
+epoch:2951 loss:0.03723480583479007
+now start to train
+epoch:2952 loss:0.03723437370111545
+now start to train
+epoch:2953 loss:0.037234230587879814
+now start to train
+epoch:2954 loss:0.03723504083851973
+now start to train
+epoch:2955 loss:0.037233042841156326
+now start to train
+epoch:2956 loss:0.03723227046430111
+now start to train
+epoch:2957 loss:0.03723401855677366
+now start to train
+epoch:2958 loss:0.03723187651485205
+now start to train
+epoch:2959 loss:0.03723196995755037
+now start to train
+epoch:2960 loss:0.03722993781169256
+now start to train
+epoch:2961 loss:0.037230479530990124
+now start to train
+epoch:2962 loss:0.03722975216805935
+now start to train
+epoch:2963 loss:0.037229704670608044
+now start to train
+epoch:2964 loss:0.03722927657266458
+now start to train
+epoch:2965 loss:0.03722943334529797
+now start to train
+epoch:2966 loss:0.037228466322024666
+now start to train
+epoch:2967 loss:0.03722749122728904
+now start to train
+epoch:2968 loss:0.03722545442481836
+now start to train
+epoch:2969 loss:0.03722539978722731
+now start to train
+epoch:2970 loss:0.037226115042964615
+now start to train
+epoch:2971 loss:0.03722458394865195
+now start to train
+epoch:2972 loss:0.03722435111800829
+now start to train
+epoch:2973 loss:0.03722344618290663
+now start to train
+epoch:2974 loss:0.03722299511233965
+now start to train
+epoch:2975 loss:0.03722211221853892
+now start to train
+epoch:2976 loss:0.0372222779939572
+now start to train
+epoch:2977 loss:0.037219962726036705
+now start to train
+epoch:2978 loss:0.03721950917194287
+now start to train
+epoch:2979 loss:0.03722067146251599
+now start to train
+epoch:2980 loss:0.037218970557053886
+now start to train
+epoch:2981 loss:0.0372183732688427
+now start to train
+epoch:2982 loss:0.03721778467297554
+now start to train
+epoch:2983 loss:0.03721820842474699
+now start to train
+epoch:2984 loss:0.03721780050545931
+now start to train
+epoch:2985 loss:0.03721718676388264
+now start to train
+epoch:2986 loss:0.03721496897439162
+now start to train
+epoch:2987 loss:0.037215448915958405
+now start to train
+epoch:2988 loss:0.037214734281102814
+now start to train
+epoch:2989 loss:0.03721318921695153
+now start to train
+epoch:2990 loss:0.0372136781613032
+now start to train
+epoch:2991 loss:0.03721348910282055
+now start to train
+epoch:2992 loss:0.037212763292094074
+now start to train
+epoch:2993 loss:0.037212168176968895
+now start to train
+epoch:2994 loss:0.03721087488035361
+now start to train
+epoch:2995 loss:0.037211559092005096
+now start to train
+epoch:2996 loss:0.037211243684093155
+now start to train
+epoch:2997 loss:0.037211307945350804
+now start to train
+epoch:2998 loss:0.03720926338185867
+now start to train
+epoch:2999 loss:0.037208300083875656
+2023-10-18 03:40:16
