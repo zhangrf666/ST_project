@@ -4,6 +4,7 @@ ST_project/segment/crop_img.py
 
 ## train:
 ST_project/segment/DetectCell_Retiname.py
+
 **loss in train process:** ST_project/segment/nohup.out
 
 ## visual
